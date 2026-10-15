@@ -2,32 +2,32 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261015",
+  "release": "x-20261015-offline",
   "status": "verified",
   "layout": "one executable per client package",
   "credentials_included": false,
   "artifacts": [
     {
       "name": "ACELYNK_Portable V3.8.7X.zip",
-      "bytes": 46905040,
-      "sha256": "5189D337B9267ECD432E32E975E5EC332D37B1E6FD3BBC82563D710E9789179D",
+      "bytes": 46938083,
+      "sha256": "D2CAA183A182F3C98FEF9A4BEE7F36A2C25E8B8BB2DB33BC86C0F48DF696A5AE",
       "files": [
         {
           "name": "ACELYNK Tool V3.8.7X.exe",
-          "bytes": 47150296,
-          "sha256": "960B42009CB2C395BFD52777DE0E44DD2FE7D2F932DD02D2EA9E948EE57D2A3C"
+          "bytes": 47183064,
+          "sha256": "DF22B020B24AA9C010E5E740CFDE1EA488E1F03E88AB9290640CCDAF77D47F5A"
         }
       ]
     },
     {
       "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.zip",
-      "bytes": 25277926,
-      "sha256": "AA92194E3D9B02BA49C68BFE05218BBB7EC668F4DDBBEB0E3490F54687C87E35",
+      "bytes": 25313525,
+      "sha256": "C357152B52B750A3A4F3804F400EDF88ECBF4AC0551F8F52AB197BF2C946A5BE",
       "files": [
         {
           "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.exe",
-          "bytes": 41390592,
-          "sha256": "2C401E0DAE3D0DB9A9B71F147AAF0F910A0C085D3D1B12C3115417A11F40A4C9"
+          "bytes": 41427968,
+          "sha256": "888D6D6126E0C282F62E43FF57719E760EC777B4E1591061C4B46D551A542632"
         }
       ]
     }
@@ -37,6 +37,19 @@
     "credential_and_runtime_residue_audit_passed": true,
     "trz_authenticode_present": true,
     "normal_gui_startup_and_authorization": true,
-    "physical_second_computer_tested": false
+    "physical_second_computer_tested": false,
+    "offline_first_trial_and_reopen": true,
+    "formal_offline_until_original_expiry": true,
+    "normal_gui_with_backend_stopped": true,
+    "known_rejection_persisted": true,
+    "secret_audit_passed": true
+  },
+  "offline_authorization": {
+    "formal": "device-bound owner-signed license until the originally approved deadline",
+    "first_use": "seven-day local trial before first connection; deferred report preserves the original start",
+    "revocation": "received on reconnect",
+    "existing_backend_trial_ledger_authoritative": true,
+    "existing_clients_preserved": true,
+    "existing_approval_identity_preserved": true
   }
 }
