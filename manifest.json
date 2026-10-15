@@ -1,0 +1,42 @@
+{
+  "name": "TR-Z X",
+  "author": "Tingrui Zhang",
+  "copyright": "Copyright (c) 2026 Tingrui Zhang",
+  "release": "x-20261015",
+  "status": "verified",
+  "layout": "one executable per client package",
+  "credentials_included": false,
+  "artifacts": [
+    {
+      "name": "ACELYNK_Portable V3.8.7X.zip",
+      "bytes": 46905040,
+      "sha256": "5189D337B9267ECD432E32E975E5EC332D37B1E6FD3BBC82563D710E9789179D",
+      "files": [
+        {
+          "name": "ACELYNK Tool V3.8.7X.exe",
+          "bytes": 47150296,
+          "sha256": "960B42009CB2C395BFD52777DE0E44DD2FE7D2F932DD02D2EA9E948EE57D2A3C"
+        }
+      ]
+    },
+    {
+      "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.zip",
+      "bytes": 25277926,
+      "sha256": "AA92194E3D9B02BA49C68BFE05218BBB7EC668F4DDBBEB0E3490F54687C87E35",
+      "files": [
+        {
+          "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.exe",
+          "bytes": 41390592,
+          "sha256": "2C401E0DAE3D0DB9A9B71F147AAF0F910A0C085D3D1B12C3115417A11F40A4C9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "final_artifacts_validated": true,
+    "credential_and_runtime_residue_audit_passed": true,
+    "trz_authenticode_present": true,
+    "normal_gui_startup_and_authorization": true,
+    "physical_second_computer_tested": false
+  }
+}
