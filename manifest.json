@@ -2,32 +2,32 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261015-offline",
+  "release": "x-20261015-offline-r1",
   "status": "verified",
   "layout": "one executable per client package",
   "credentials_included": false,
   "artifacts": [
     {
       "name": "ACELYNK_Portable V3.8.7X.zip",
-      "bytes": 46938083,
-      "sha256": "D2CAA183A182F3C98FEF9A4BEE7F36A2C25E8B8BB2DB33BC86C0F48DF696A5AE",
+      "bytes": 46938603,
+      "sha256": "7F493A1E40B527EE70509829D69994AB230BBB1F3470C4F37DE5823F711BC546",
       "files": [
         {
           "name": "ACELYNK Tool V3.8.7X.exe",
           "bytes": 47183064,
-          "sha256": "DF22B020B24AA9C010E5E740CFDE1EA488E1F03E88AB9290640CCDAF77D47F5A"
+          "sha256": "EB4337D6BDB4B75357C43C299E19096B4CB44ACC21956E889018022E0DD7D753"
         }
       ]
     },
     {
       "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.zip",
-      "bytes": 25313525,
-      "sha256": "C357152B52B750A3A4F3804F400EDF88ECBF4AC0551F8F52AB197BF2C946A5BE",
+      "bytes": 25314132,
+      "sha256": "9945236B98FE08B91BFC07E2C4B707240B3721FD22022A3462AD8421AD036AAC",
       "files": [
         {
           "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.exe",
-          "bytes": 41427968,
-          "sha256": "888D6D6126E0C282F62E43FF57719E760EC777B4E1591061C4B46D551A542632"
+          "bytes": 41428480,
+          "sha256": "F97638FFD9A3F4687072C9755A454ABC9C9ECC1FCDCEB994F426ADC81538C365"
         }
       ]
     }
@@ -42,7 +42,15 @@
     "formal_offline_until_original_expiry": true,
     "normal_gui_with_backend_stopped": true,
     "known_rejection_persisted": true,
-    "secret_audit_passed": true
+    "secret_audit_passed": true,
+    "offline_client_checks": 70,
+    "extracted_frozen_probe_checks_per_client": 21,
+    "final_normal_gui_startups": true,
+    "transient_server_error_and_rate_limit_preserve_original_offline_expiry": true,
+    "transient_http_statuses_tested": [
+      429,
+      500
+    ]
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
