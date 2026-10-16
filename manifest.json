@@ -2,9 +2,9 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261015-offline-r1",
+  "release": "x-20261015-fda-plugins",
   "status": "verified",
-  "layout": "one executable per client package",
+  "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
     {
@@ -30,6 +30,175 @@
           "sha256": "F97638FFD9A3F4687072C9755A454ABC9C9ECC1FCDCEB994F426ADC81538C365"
         }
       ]
+    },
+    {
+      "name": "FDA-ITACS-Checker-V3.1X.zip",
+      "bytes": 338293,
+      "sha256": "E353A78452F906EECE0575272C5747C8AE463D2CC125FA296891BC634ACB27FA",
+      "files": [
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/assets/icon128.png",
+          "bytes": 20634,
+          "sha256": "BFDDD68EB7C0B54BE882C4433A68DC42247F4432E67DD3DE62DB6D00FB097510"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/assets/icon16.png",
+          "bytes": 729,
+          "sha256": "CFF1FE3394EDF6549B7FD353128B118926C93A52F96A2A8593AE72CF05F8827B"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/assets/icon32.png",
+          "bytes": 2000,
+          "sha256": "5A5EE0C766834B2E774C8FA53BBF12F5440335816067164FC7E3106797366AB3"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/assets/icon48.png",
+          "bytes": 3764,
+          "sha256": "99F102F5AAE591FB7BB915147021F8E9784217C7008A1716F6C7724C2C75E647"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/background.js",
+          "bytes": 4891,
+          "sha256": "FB377558E16D02F61292B271B5C7D7B16C299851EDE1ACE1F7C55AEC479E3706"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/content.js",
+          "bytes": 24536,
+          "sha256": "43F2F4A6A28927A60CF292C033CC833C0DF2EA7799067DB5204425E56CE9508B"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/core.js",
+          "bytes": 4170,
+          "sha256": "B59B8911EE2051DFB1F779080564F374C06F4492423CCE6F0CED2B2A877C7639"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/icons.js",
+          "bytes": 30582,
+          "sha256": "CE68201F8ADD70955C1EDEF0DB0F45C5D5B36B7C341D5B9559BE90B7F6AC6031"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/manifest.json",
+          "bytes": 1696,
+          "sha256": "9E257FE7615C66E83C7853578AD1801616CF2D6BCCD059699838EC1A0614BE36"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/page-api.js",
+          "bytes": 12873,
+          "sha256": "B038289FCDFD9439A40B6B3D6D4898CA80B6252407258A06F719E91DA29E1C45"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/styles.js",
+          "bytes": 6636,
+          "sha256": "A138A449F3456757DA5FC54746A4F8C224C93EF699D6ACDDB7870CBD13DB6E15"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/TR-Z.cat",
+          "bytes": 6949,
+          "sha256": "FB3975BEE53756CFC894A6EC49FAFB5EBC933476B64F9C574ECB6242EB7BC5C0"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/vendor/EXCELJS-LICENSE.txt",
+          "bytes": 1084,
+          "sha256": "2ED526B7E7C7681DC2347995B5036DDF73DC27D0539CDEA59B6D4A72B63A57A0"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/vendor/exceljs.min.js",
+          "bytes": 947702,
+          "sha256": "7E49DA68588E250DBB8BBA190D2CAA8AB3787CC0284BDA1D8B2F805C4DF742C9"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/vendor/LUCIDE-LICENSE.txt",
+          "bytes": 3208,
+          "sha256": "B495047BD93A9B06913511076F504DABA17D5BBEB3E0650F3BB53A4220329C57"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/x-auth.js",
+          "bytes": 23451,
+          "sha256": "510C93A527D134CC4D2B858BA3026BDBBC736B84EB11CA9A02F84A280E5D35D3"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/x-config.js",
+          "bytes": 834,
+          "sha256": "926021AF7AF2B262D32942D42E2EDDE6744D3D350BD54AADD5DB30BECE9AE77F"
+        }
+      ]
+    },
+    {
+      "name": "FDA-Mail-Sender-V3X.zip",
+      "bytes": 57405,
+      "sha256": "49D0AF4C11F3C4624DDDB9EC424B4D42E842F13BDE8FBBA390360ABBD890BDA0",
+      "files": [
+        {
+          "name": "FDA-Mail-Sender-V3X/background.js",
+          "bytes": 2300,
+          "sha256": "75026A4F9A3FB0C3D3C20F352D7AEE71A0342823A8B784B3EDB19C56516F0F02"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/content.js",
+          "bytes": 18012,
+          "sha256": "155506A41E385E07DC1AE1D01C5860542C5303D5C806F6C3C928EE52B2F47B30"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/icon128.png",
+          "bytes": 21521,
+          "sha256": "2312995718576B86BDE5DBE1CD05B69ADF94182C895F90CFCA9CCC460C0F5AA4"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/icon16.png",
+          "bytes": 705,
+          "sha256": "5F28E39391E8EDDE2F0C0FA34284E43F7E4D34032B20A3EA9296AA2038543159"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/icon32.png",
+          "bytes": 1996,
+          "sha256": "9AE5713C685F3364FD15D5119AE5D68DA1E83960E18D424492300D6A893D40E7"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/icon48.png",
+          "bytes": 3886,
+          "sha256": "838FAB999974C2F1C2A89C7CD4754920EB74C12F2F97B2FA88767E114DF02E8A"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/manifest.json",
+          "bytes": 2112,
+          "sha256": "030FE1B715535445CB0010A9D26224AB82A04D504EAB1CE404BCA6A8095C5975"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/panel-host.js",
+          "bytes": 5680,
+          "sha256": "8085A835919CDF5BC3250A745FF7EFD270F13195C04F08093C5D808F7D7EA6D6"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/popup.css",
+          "bytes": 3505,
+          "sha256": "68C21F33AF72216B9C696B52958B2BDB682967DC486349FB09EFB8DFD83E8378"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/popup.html",
+          "bytes": 2489,
+          "sha256": "63A7D8C6F9038E057BF2D77183A68896E5FE4E9E42B08FD973C83DC74453DAB4"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/popup.js",
+          "bytes": 22585,
+          "sha256": "E2220151DE8CDAD1D3BCFA958A734AFB7274159367588118AB019F93EE40BDFA"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/TR-Z.cat",
+          "bytes": 5723,
+          "sha256": "8AA8C76E92BCD3619C586DB67D819A9EF5E2DADE7BF24AB6837A007F85672C43"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/x-auth.js",
+          "bytes": 23451,
+          "sha256": "510C93A527D134CC4D2B858BA3026BDBBC736B84EB11CA9A02F84A280E5D35D3"
+        },
+        {
+          "name": "FDA-Mail-Sender-V3X/x-config.js",
+          "bytes": 822,
+          "sha256": "B997179F68FD675FFEB162F9AFEC0B1EEE32C8D829CE7C9A127F00E485E11177"
+        }
+      ]
     }
   ],
   "verification": {
@@ -50,14 +219,46 @@
     "transient_http_statuses_tested": [
       429,
       500
-    ]
+    ],
+    "pure_plugins_actual_chromium_idb_checks": 30,
+    "pure_plugins_cross_language_checks": 10,
+    "pure_plugins_manual_approval_and_no_trial": true,
+    "pure_plugins_signed_catalog_verified": true
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
-    "first_use": "seven-day local trial before first connection; deferred report preserves the original start",
+    "first_use": "desktop clients retain seven-day local trial; pure Chrome plugins are pending until owner approval",
     "revocation": "received on reconnect",
     "existing_backend_trial_ledger_authoritative": true,
     "existing_clients_preserved": true,
     "existing_approval_identity_preserved": true
-  }
+  },
+  "chrome_extensions": [
+    {
+      "product_id": "fda-itacs-checker-x",
+      "extension_id": "abaaodmcfgdbjnapdnbclcboilcajpco",
+      "asset": "FDA-ITACS-Checker-V3.1X.zip",
+      "approval": "manual only",
+      "automatic_or_offline_trial": false,
+      "minimum_chrome_version": 137,
+      "incognito": "not_allowed",
+      "helper_required": false,
+      "registration_or_login_required": false,
+      "signed_catalog_subject": "CN=Tingrui Zhang - TEMU Invoice PDF Converter, O=TR-Z",
+      "cached_formal_deadline": "original approved expiry"
+    },
+    {
+      "product_id": "fda-mail-sender-x",
+      "extension_id": "lmoocmcgboneigdlbjpoijpdagmnpilg",
+      "asset": "FDA-Mail-Sender-V3X.zip",
+      "approval": "manual only",
+      "automatic_or_offline_trial": false,
+      "minimum_chrome_version": 137,
+      "incognito": "not_allowed",
+      "helper_required": false,
+      "registration_or_login_required": false,
+      "signed_catalog_subject": "CN=Tingrui Zhang - TEMU Invoice PDF Converter, O=TR-Z",
+      "cached_formal_deadline": "original approved expiry"
+    }
+  ]
 }
