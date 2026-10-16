@@ -2,7 +2,7 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261015-fda-plugins",
+  "release": "x-20261016-magaya-batch-off",
   "status": "verified",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
@@ -199,6 +199,68 @@
           "sha256": "B997179F68FD675FFEB162F9AFEC0B1EEE32C8D829CE7C9A127F00E485E11177"
         }
       ]
+    },
+    {
+      "name": "MAGAYA Batch Off X.zip",
+      "bytes": 24648,
+      "sha256": "89466EA736E477F1A3E45518A9FCB10A47F2B014C276F3200E7CAA1A4386AD36",
+      "files": [
+        {
+          "name": "MAGAYA Batch Off X/batch-core.js",
+          "bytes": 11109,
+          "sha256": "A1AD6E6E98D86E59EA791A44BED69E01F7D4D691256E0120E3816C8DE693CF80"
+        },
+        {
+          "name": "MAGAYA Batch Off X/icons/128.png",
+          "bytes": 2482,
+          "sha256": "4ED66443E7F1848B63589216BC1107CD27DF613E8B2F6D773BF2062534370BB5"
+        },
+        {
+          "name": "MAGAYA Batch Off X/icons/16.png",
+          "bytes": 402,
+          "sha256": "B08D1470355EFC21B23C09ADB19B82D1EF218169F0973E40EB6F6BEDABC837EE"
+        },
+        {
+          "name": "MAGAYA Batch Off X/icons/32.png",
+          "bytes": 692,
+          "sha256": "93CF2E8CB4D2F87DF2484D26E83A7835C704D2F206E3DE25E905956083EE47A2"
+        },
+        {
+          "name": "MAGAYA Batch Off X/icons/48.png",
+          "bytes": 1027,
+          "sha256": "535227A1278E84A5A7B75A9FDFAFD633C10B50520286BD40EC2BD1A8E98541BF"
+        },
+        {
+          "name": "MAGAYA Batch Off X/LICENSE",
+          "bytes": 1070,
+          "sha256": "F75E4E819F16A22FC129BCAA3C384C0713EA9AA044ECDDC2A61882F63C1FC535"
+        },
+        {
+          "name": "MAGAYA Batch Off X/manifest.json",
+          "bytes": 1384,
+          "sha256": "93A2A79037B6AFAEEA1CEB798663B927965B1C0D5BE1576EA7D9D5E88BC50960"
+        },
+        {
+          "name": "MAGAYA Batch Off X/service-worker.js",
+          "bytes": 10635,
+          "sha256": "74D412D03EC501AF0E10AA6694BA3624C7118F8D9E28F6D81917C269A886D3F1"
+        },
+        {
+          "name": "MAGAYA Batch Off X/TR-Z.cat",
+          "bytes": 4808,
+          "sha256": "33742D7AB3C4C3F3C9C06EF058D19A6DB5D914896156C646B790F0275449DC9A"
+        },
+        {
+          "name": "MAGAYA Batch Off X/x-auth.js",
+          "bytes": 23451,
+          "sha256": "510C93A527D134CC4D2B858BA3026BDBBC736B84EB11CA9A02F84A280E5D35D3"
+        },
+        {
+          "name": "MAGAYA Batch Off X/x-config.js",
+          "bytes": 801,
+          "sha256": "E523CA82CDBC36B513A1C15912D60C84371C1BBC4C7360CBB5D2CE81F51A6C84"
+        }
+      ]
     }
   ],
   "verification": {
@@ -223,7 +285,10 @@
     "pure_plugins_actual_chromium_idb_checks": 30,
     "pure_plugins_cross_language_checks": 10,
     "pure_plugins_manual_approval_and_no_trial": true,
-    "pure_plugins_signed_catalog_verified": true
+    "pure_plugins_signed_catalog_verified": true,
+    "batch_off_x_final_artifact_validated": true,
+    "batch_off_x_manual_no_trial": true,
+    "batch_off_x_credential_and_profile_audit_passed": true
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
@@ -251,6 +316,19 @@
       "product_id": "fda-mail-sender-x",
       "extension_id": "lmoocmcgboneigdlbjpoijpdagmnpilg",
       "asset": "FDA-Mail-Sender-V3X.zip",
+      "approval": "manual only",
+      "automatic_or_offline_trial": false,
+      "minimum_chrome_version": 137,
+      "incognito": "not_allowed",
+      "helper_required": false,
+      "registration_or_login_required": false,
+      "signed_catalog_subject": "CN=Tingrui Zhang - TEMU Invoice PDF Converter, O=TR-Z",
+      "cached_formal_deadline": "original approved expiry"
+    },
+    {
+      "product_id": "magaya-batch-off-x",
+      "extension_id": "opiemnbjkimalpdfkcfechogepalmafi",
+      "asset": "MAGAYA-Batch-Off-X.zip",
       "approval": "manual only",
       "automatic_or_offline_trial": false,
       "minimum_chrome_version": 137,

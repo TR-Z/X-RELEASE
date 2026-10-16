@@ -11,3 +11,5 @@ Copyright (c) 2026 Tingrui Zhang
 
 - FDA-ITACS-Checker-V3.1X
 - FDA-Mail-Sender-V3X
+
+- MAGAYA Batch Off X
