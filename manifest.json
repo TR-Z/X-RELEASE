@@ -2,20 +2,20 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261016-magaya-batch-off",
+  "release": "x-20261017-acelynk-resume-login",
   "status": "verified",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
     {
       "name": "ACELYNK_Portable V3.8.7X.zip",
-      "bytes": 46938603,
-      "sha256": "7F493A1E40B527EE70509829D69994AB230BBB1F3470C4F37DE5823F711BC546",
+      "bytes": 47835499,
+      "sha256": "DFF407B730C8B1A8901B760F76DE2386ECDD318BD5D59CE34F35F2976586B60C",
       "files": [
         {
           "name": "ACELYNK Tool V3.8.7X.exe",
-          "bytes": 47183064,
-          "sha256": "EB4337D6BDB4B75357C43C299E19096B4CB44ACC21956E889018022E0DD7D753"
+          "bytes": 48034520,
+          "sha256": "00880A150C3C0E07FD7465F8618C61C1D7E5D86198D849E955753558EBF39720"
         }
       ]
     },
@@ -288,7 +288,12 @@
     "pure_plugins_signed_catalog_verified": true,
     "batch_off_x_final_artifact_validated": true,
     "batch_off_x_manual_no_trial": true,
-    "batch_off_x_credential_and_profile_audit_passed": true
+    "batch_off_x_credential_and_profile_audit_passed": true,
+    "acelynk_resume_login_final_artifact_validated": true,
+    "acelynk_resume_login_no_completed_entry_replay": true,
+    "acelynk_authorization_identity_and_sdk_unchanged": true,
+    "acelynk_pause_waiting_logs_quiet": true,
+    "acelynk_resume_reports_total_pause_duration": true
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
