@@ -2,7 +2,7 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261017-acelynk-resume-login",
+  "release": "x-20261021-cbp3499-v1-x",
   "status": "verified",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
@@ -261,6 +261,18 @@
           "sha256": "E523CA82CDBC36B513A1C15912D60C84371C1BBC4C7360CBB5D2CE81F51A6C84"
         }
       ]
+    },
+    {
+      "name": "CBP3499-V1-X.zip",
+      "bytes": 124645325,
+      "sha256": "62B029BE348D23A108172B0FDB77ED37818E5181408A8378D04F6B191873D066",
+      "files": [
+        {
+          "name": "CBP3499 V1 X.exe",
+          "bytes": 125413544,
+          "sha256": "08A5DD24D7CC0D2A9F583E30D86CEEA2906EDC969222E9C5245D54E220629D9B"
+        }
+      ]
     }
   ],
   "verification": {
@@ -343,5 +355,45 @@
       "signed_catalog_subject": "CN=Tingrui Zhang - TEMU Invoice PDF Converter, O=TR-Z",
       "cached_formal_deadline": "original approved expiry"
     }
-  ]
+  ],
+  "cbp3499_v1_x": {
+    "product_id": "cbp3499-x",
+    "name": "CBP3499 V1 X",
+    "app_version": "1.0.3X",
+    "asset": "CBP3499-V1-X.zip",
+    "authorization_backend": "existing Eternal Terminal X",
+    "approval": "independent per-product owner approval",
+    "license_term": "independent per-product term",
+    "default_max_devices": 0,
+    "zero_means": "unlimited",
+    "first_local_trial_days": 7,
+    "formal_offline_deadline": "original approved expiry",
+    "customer_data_included": false
+  },
+  "cbp3499_v1_x_verification": {
+    "status": "verified",
+    "sdk_isolated_checks": {
+      "status": "passed",
+      "count": 16
+    },
+    "source_full_functional_regression": "passed",
+    "source_real_tk_with_fake_gate_async_regression": "passed",
+    "trz_authenticode_present": true,
+    "certificate_trust": "self-signed; not publicly trusted by Windows",
+    "single_executable_zip": true,
+    "clean_extracted_sha256_matches": true,
+    "diagnostic_cli_bypass_rejected": true,
+    "frozen_gui": "passed: actual signed EXE, editable/fixed PDF, history and leading zeros",
+    "production_https": "passed: product registration and device-bound signed permit; existing entitlements preserved",
+    "published_asset_download_and_internal_hash_readback": "passed: six packages",
+    "physical_second_computer_tested": false,
+    "real_business_operations_performed": false,
+    "frozen_scan_ocr": "passed: inert scanned MAWB",
+    "normal_interface_without_trial_or_authorization_controls": true,
+    "bundle_audit": {
+      "entries": 2681,
+      "violations": 0,
+      "gaps": 0
+    }
+  }
 }
