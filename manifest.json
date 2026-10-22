@@ -2,7 +2,7 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261022-fda-mail-click",
+  "release": "x-20261022-batch-off-recovery",
   "status": "verified",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
@@ -202,13 +202,23 @@
     },
     {
       "name": "MAGAYA Batch Off X.zip",
-      "bytes": 24648,
-      "sha256": "89466EA736E477F1A3E45518A9FCB10A47F2B014C276F3200E7CAA1A4386AD36",
+      "bytes": 29298,
+      "sha256": "C5D6C46718A84BC25C1B54BF683610EBD1A8C64AE4D0317EAC59C437228E846B",
       "files": [
         {
+          "name": "MAGAYA Batch Off X/LICENSE",
+          "bytes": 1070,
+          "sha256": "F75E4E819F16A22FC129BCAA3C384C0713EA9AA044ECDDC2A61882F63C1FC535"
+        },
+        {
+          "name": "MAGAYA Batch Off X/TR-Z.cat",
+          "bytes": 4808,
+          "sha256": "C97B7172A3F61A153C9F11CDD946DC2FBF17D4B710ABD2D09326EAD2C8934044"
+        },
+        {
           "name": "MAGAYA Batch Off X/batch-core.js",
-          "bytes": 11109,
-          "sha256": "A1AD6E6E98D86E59EA791A44BED69E01F7D4D691256E0120E3816C8DE693CF80"
+          "bytes": 21749,
+          "sha256": "FAAFD35730822977D4F761541811635134C898479E23BA0EE12CFF7B9C69627B"
         },
         {
           "name": "MAGAYA Batch Off X/icons/128.png",
@@ -231,24 +241,14 @@
           "sha256": "535227A1278E84A5A7B75A9FDFAFD633C10B50520286BD40EC2BD1A8E98541BF"
         },
         {
-          "name": "MAGAYA Batch Off X/LICENSE",
-          "bytes": 1070,
-          "sha256": "F75E4E819F16A22FC129BCAA3C384C0713EA9AA044ECDDC2A61882F63C1FC535"
-        },
-        {
           "name": "MAGAYA Batch Off X/manifest.json",
           "bytes": 1384,
           "sha256": "93A2A79037B6AFAEEA1CEB798663B927965B1C0D5BE1576EA7D9D5E88BC50960"
         },
         {
           "name": "MAGAYA Batch Off X/service-worker.js",
-          "bytes": 10635,
-          "sha256": "74D412D03EC501AF0E10AA6694BA3624C7118F8D9E28F6D81917C269A886D3F1"
-        },
-        {
-          "name": "MAGAYA Batch Off X/TR-Z.cat",
-          "bytes": 4808,
-          "sha256": "33742D7AB3C4C3F3C9C06EF058D19A6DB5D914896156C646B790F0275449DC9A"
+          "bytes": 16019,
+          "sha256": "351ED4698033C84CB4B79FD2FEAE527B0A139205D561E84FF09D7ACEADAA6BD1"
         },
         {
           "name": "MAGAYA Batch Off X/x-auth.js",
@@ -397,5 +397,16 @@
       "violations": 0,
       "gaps": 0
     }
+  },
+  "batch_off_recovery_verification": {
+    "version": "1.0.0",
+    "bounded_operations": true,
+    "stale_mutations_rejected": true,
+    "manual_recheck_preserved": true,
+    "manifest_sdk_config_key_unchanged": true,
+    "original_sdk_denial_tested_without_network": true,
+    "business_fixture_auth_seam_separate": true,
+    "final_extracted_packages_tested": true,
+    "live_business_actions": 0
   }
 }
