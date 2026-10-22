@@ -2,7 +2,7 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261021-cbp3499-v1-x",
+  "release": "x-20261022-fda-mail-click",
   "status": "verified",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
@@ -125,13 +125,18 @@
     },
     {
       "name": "FDA-Mail-Sender-V3X.zip",
-      "bytes": 57405,
-      "sha256": "49D0AF4C11F3C4624DDDB9EC424B4D42E842F13BDE8FBBA390360ABBD890BDA0",
+      "bytes": 57719,
+      "sha256": "11612B8857AAEEF0AC93C621114C2677D4990F0A895334862872F22890B26A22",
       "files": [
         {
+          "name": "FDA-Mail-Sender-V3X/TR-Z.cat",
+          "bytes": 5723,
+          "sha256": "84714465E4A35244CF3CADFAE853D917EED86D485053B1551B819F65763D35D9"
+        },
+        {
           "name": "FDA-Mail-Sender-V3X/background.js",
-          "bytes": 2300,
-          "sha256": "75026A4F9A3FB0C3D3C20F352D7AEE71A0342823A8B784B3EDB19C56516F0F02"
+          "bytes": 3114,
+          "sha256": "6ADCCA2FA83B33B21469EF60FC1E9EC06C4584317FC31ECA41A7577C2C74EDEC"
         },
         {
           "name": "FDA-Mail-Sender-V3X/content.js",
@@ -165,8 +170,8 @@
         },
         {
           "name": "FDA-Mail-Sender-V3X/panel-host.js",
-          "bytes": 5680,
-          "sha256": "8085A835919CDF5BC3250A745FF7EFD270F13195C04F08093C5D808F7D7EA6D6"
+          "bytes": 5912,
+          "sha256": "0194F4EF315A735ADF44AD2A08272B5974AF795675EFA26E7272E7F5A41A863D"
         },
         {
           "name": "FDA-Mail-Sender-V3X/popup.css",
@@ -182,11 +187,6 @@
           "name": "FDA-Mail-Sender-V3X/popup.js",
           "bytes": 22585,
           "sha256": "E2220151DE8CDAD1D3BCFA958A734AFB7274159367588118AB019F93EE40BDFA"
-        },
-        {
-          "name": "FDA-Mail-Sender-V3X/TR-Z.cat",
-          "bytes": 5723,
-          "sha256": "8AA8C76E92BCD3619C586DB67D819A9EF5E2DADE7BF24AB6837A007F85672C43"
         },
         {
           "name": "FDA-Mail-Sender-V3X/x-auth.js",
@@ -305,7 +305,9 @@
     "acelynk_resume_login_no_completed_entry_replay": true,
     "acelynk_authorization_identity_and_sdk_unchanged": true,
     "acelynk_pause_waiting_logs_quiet": true,
-    "acelynk_resume_reports_total_pause_duration": true
+    "acelynk_resume_reports_total_pause_duration": true,
+    "fda_mail_click_only_final_artifact_validated": true,
+    "fda_mail_click_only_authorization_identity_and_sdk_unchanged": true
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
