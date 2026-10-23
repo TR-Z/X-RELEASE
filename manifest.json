@@ -2,7 +2,7 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261022-batch-off-recovery",
+  "release": "x-20261022-batch-off-speed",
   "status": "verified",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
@@ -202,8 +202,8 @@
     },
     {
       "name": "MAGAYA Batch Off X.zip",
-      "bytes": 29298,
-      "sha256": "C5D6C46718A84BC25C1B54BF683610EBD1A8C64AE4D0317EAC59C437228E846B",
+      "bytes": 29490,
+      "sha256": "7BF25ED6DFA37A8C4A192091EC8F146A6B066A3ECEDBD2B219BA2FF6AC6D40EE",
       "files": [
         {
           "name": "MAGAYA Batch Off X/LICENSE",
@@ -213,12 +213,12 @@
         {
           "name": "MAGAYA Batch Off X/TR-Z.cat",
           "bytes": 4808,
-          "sha256": "C97B7172A3F61A153C9F11CDD946DC2FBF17D4B710ABD2D09326EAD2C8934044"
+          "sha256": "7AFEB589EFC9E5C8A8595D8DB3113F4956311660DB3BC28AE760BBB036D46346"
         },
         {
           "name": "MAGAYA Batch Off X/batch-core.js",
-          "bytes": 21749,
-          "sha256": "FAAFD35730822977D4F761541811635134C898479E23BA0EE12CFF7B9C69627B"
+          "bytes": 22190,
+          "sha256": "08E379C14991FD49FD0B2A41B17E624859BFD919B7DD2F516DB11497EEECEC88"
         },
         {
           "name": "MAGAYA Batch Off X/icons/128.png",
@@ -399,6 +399,17 @@
     }
   },
   "batch_off_recovery_verification": {
+    "version": "1.0.0",
+    "bounded_operations": true,
+    "stale_mutations_rejected": true,
+    "manual_recheck_preserved": true,
+    "manifest_sdk_config_key_unchanged": true,
+    "original_sdk_denial_tested_without_network": true,
+    "business_fixture_auth_seam_separate": true,
+    "final_extracted_packages_tested": true,
+    "live_business_actions": 0
+  },
+  "batch_off_speed_verification": {
     "version": "1.0.0",
     "bounded_operations": true,
     "stale_mutations_rejected": true,
