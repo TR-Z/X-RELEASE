@@ -2,34 +2,42 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-20261022-batch-off-speed",
-  "status": "verified",
+  "release": "x-generic-ota-2026102302",
+  "status": "verified bootstrap packages; backend OTA manifests unchanged",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
     {
-      "name": "ACELYNK_Portable V3.8.7X.zip",
-      "bytes": 47835499,
-      "sha256": "DFF407B730C8B1A8901B760F76DE2386ECDD318BD5D59CE34F35F2976586B60C",
+      "name": "ACELYNK_Portable.V3.8.7X.zip",
+      "bytes": 47892445,
+      "sha256": "4245EAE3F24A57D3D608BA04BE8FD7572FE4563EE38A69EB7CBCC0208AF531AA",
       "files": [
         {
-          "name": "ACELYNK Tool V3.8.7X.exe",
-          "bytes": 48034520,
-          "sha256": "00880A150C3C0E07FD7465F8618C61C1D7E5D86198D849E955753558EBF39720"
+          "name": "ACELYNK Tool X.exe",
+          "bytes": 48102104,
+          "sha256": "1EE70EABB6BC957615BD55595FD1458D2631B1B62A226133AA3D709DBB2A1F70"
         }
-      ]
+      ],
+      "product_id": "acelynk-portable-x",
+      "version": "3.8.7X",
+      "build": 2026102302,
+      "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453"
     },
     {
-      "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.zip",
-      "bytes": 25314132,
-      "sha256": "9945236B98FE08B91BFC07E2C4B707240B3721FD22022A3462AD8421AD036AAC",
+      "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+      "bytes": 17257051,
+      "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
       "files": [
         {
           "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.exe",
-          "bytes": 41428480,
-          "sha256": "F97638FFD9A3F4687072C9755A454ABC9C9ECC1FCDCEB994F426ADC81538C365"
+          "bytes": 17268736,
+          "sha256": "201453341430F92E09287C55161A29A612CAD683B59868AE948A3B87130EA4C0"
         }
-      ]
+      ],
+      "product_id": "temu-invoice-4.6-x",
+      "version": "4.6X",
+      "build": 2026102302,
+      "signer_thumbprint": "516DE0AC4C0686C671578EDB7A98B3EB054176B9"
     },
     {
       "name": "FDA-ITACS-Checker-V3.1X.zip",
@@ -419,5 +427,81 @@
     "business_fixture_auth_seam_separate": true,
     "final_extracted_packages_tested": true,
     "live_business_actions": 0
+  },
+  "release_distribution": {
+    "mode": "GitHub release and manual bootstrap only",
+    "tag": "x-generic-ota-2026102302",
+    "assets": [
+      {
+        "name": "ACELYNK_Portable.V3.8.7X.zip",
+        "bytes": 47892445,
+        "sha256": "4245EAE3F24A57D3D608BA04BE8FD7572FE4563EE38A69EB7CBCC0208AF531AA",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/ACELYNK_Portable.V3.8.7X.zip",
+        "delivery": "manual generic-OTA bootstrap"
+      },
+      {
+        "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "bytes": 17257051,
+        "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "delivery": "manual generic-OTA bootstrap"
+      },
+      {
+        "name": "FDA-ITACS-Checker-V3.1X.zip",
+        "bytes": 338293,
+        "sha256": "E353A78452F906EECE0575272C5747C8AE463D2CC125FA296891BC634ACB27FA",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/FDA-ITACS-Checker-V3.1X.zip",
+        "delivery": "preserved original bytes",
+        "baseline_asset_id": 670088269
+      },
+      {
+        "name": "FDA-Mail-Sender-V3X.zip",
+        "bytes": 57719,
+        "sha256": "11612B8857AAEEF0AC93C621114C2677D4990F0A895334862872F22890B26A22",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/FDA-Mail-Sender-V3X.zip",
+        "delivery": "preserved original bytes",
+        "baseline_asset_id": 670088334
+      },
+      {
+        "name": "MAGAYA-Batch-Off-X.zip",
+        "bytes": 29490,
+        "sha256": "7BF25ED6DFA37A8C4A192091EC8F146A6B066A3ECEDBD2B219BA2FF6AC6D40EE",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/MAGAYA-Batch-Off-X.zip",
+        "delivery": "preserved original bytes",
+        "baseline_asset_id": 670088436
+      },
+      {
+        "name": "CBP3499-V1-X.zip",
+        "bytes": 124645325,
+        "sha256": "62B029BE348D23A108172B0FDB77ED37818E5181408A8378D04F6B191873D066",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/CBP3499-V1-X.zip",
+        "delivery": "preserved original bytes",
+        "baseline_asset_id": 670088053
+      }
+    ],
+    "unchanged_assets": [
+      "FDA-ITACS-Checker-V3.1X.zip",
+      "FDA-Mail-Sender-V3X.zip",
+      "MAGAYA-Batch-Off-X.zip",
+      "CBP3499-V1-X.zip"
+    ],
+    "backend_ota_manifests_modified": false,
+    "automatic_client_update_activated": false,
+    "prior_verification_fields": "Historical results retained; not rerun by this publication."
+  },
+  "generic_ota_bootstrap": {
+    "products": [
+      "acelynk-portable-x",
+      "temu-invoice-4.6-x"
+    ],
+    "build": 2026102302,
+    "manual_bootstrap_required": true,
+    "product_identity_and_original_signers_preserved": true,
+    "safe_executable_rename_preserves_authorization_and_ota": true,
+    "business_tasks_wait_for_natural_exit": true,
+    "successful_update_removes_program_rollback_files": true,
+    "program_only_restore_on_failed_health": true,
+    "chrome_extension_ota_supported": false,
+    "live_business_operations_performed_for_this_publication": false
   }
 }
