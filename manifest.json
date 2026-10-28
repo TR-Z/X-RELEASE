@@ -2,8 +2,8 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-generic-ota-2026102302",
-  "status": "verified bootstrap packages; backend OTA manifests unchanged",
+  "release": "x-cbp3499-ota-2026102802",
+  "status": "verified manual bootstrap; backend OTA manifest unchanged",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
@@ -271,16 +271,20 @@
       ]
     },
     {
-      "name": "CBP3499-V1-X.zip",
-      "bytes": 124645325,
-      "sha256": "62B029BE348D23A108172B0FDB77ED37818E5181408A8378D04F6B191873D066",
+      "name": "OTA.cbp3499-x.windows-x64.stable.zip",
+      "bytes": 124703643,
+      "sha256": "B4563160C07F48A0E3B546567D8D758C263716943004AF716D6D7ED3E938DC98",
       "files": [
         {
           "name": "CBP3499 V1 X.exe",
-          "bytes": 125413544,
-          "sha256": "08A5DD24D7CC0D2A9F583E30D86CEEA2906EDC969222E9C5245D54E220629D9B"
+          "bytes": 125472256,
+          "sha256": "3241531B92E565A827BB4A466184BE3FA4C6FD4F960464CD094541E71411E589"
         }
-      ]
+      ],
+      "product_id": "cbp3499-x",
+      "version": "1.0.4X",
+      "build": 2026102802,
+      "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
     }
   ],
   "verification": {
@@ -369,8 +373,8 @@
   "cbp3499_v1_x": {
     "product_id": "cbp3499-x",
     "name": "CBP3499 V1 X",
-    "app_version": "1.0.3X",
-    "asset": "CBP3499-V1-X.zip",
+    "app_version": "1.0.4X",
+    "asset": "OTA.cbp3499-x.windows-x64.stable.zip",
     "authorization_backend": "existing Eternal Terminal X",
     "approval": "independent per-product owner approval",
     "license_term": "independent per-product term",
@@ -378,7 +382,8 @@
     "zero_means": "unlimited",
     "first_local_trial_days": 7,
     "formal_offline_deadline": "original approved expiry",
-    "customer_data_included": false
+    "customer_data_included": false,
+    "build": 2026102802
   },
   "cbp3499_v1_x_verification": {
     "status": "verified",
@@ -430,64 +435,73 @@
   },
   "release_distribution": {
     "mode": "GitHub release and manual bootstrap only",
-    "tag": "x-generic-ota-2026102302",
+    "tag": "x-cbp3499-ota-2026102802",
     "assets": [
       {
         "name": "ACELYNK_Portable.V3.8.7X.zip",
         "bytes": 47892445,
         "sha256": "4245EAE3F24A57D3D608BA04BE8FD7572FE4563EE38A69EB7CBCC0208AF531AA",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/ACELYNK_Portable.V3.8.7X.zip",
-        "delivery": "manual generic-OTA bootstrap"
-      },
-      {
-        "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "bytes": 17257051,
-        "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "delivery": "manual generic-OTA bootstrap"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/ACELYNK_Portable.V3.8.7X.zip",
+        "delivery": "preserved original bytes",
+        "baseline_asset_id": 670577579
       },
       {
         "name": "FDA-ITACS-Checker-V3.1X.zip",
         "bytes": 338293,
         "sha256": "E353A78452F906EECE0575272C5747C8AE463D2CC125FA296891BC634ACB27FA",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/FDA-ITACS-Checker-V3.1X.zip",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/FDA-ITACS-Checker-V3.1X.zip",
         "delivery": "preserved original bytes",
-        "baseline_asset_id": 670088269
+        "baseline_asset_id": 670577724
       },
       {
         "name": "FDA-Mail-Sender-V3X.zip",
         "bytes": 57719,
         "sha256": "11612B8857AAEEF0AC93C621114C2677D4990F0A895334862872F22890B26A22",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/FDA-Mail-Sender-V3X.zip",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/FDA-Mail-Sender-V3X.zip",
         "delivery": "preserved original bytes",
-        "baseline_asset_id": 670088334
+        "baseline_asset_id": 670577776
       },
       {
         "name": "MAGAYA-Batch-Off-X.zip",
         "bytes": 29490,
         "sha256": "7BF25ED6DFA37A8C4A192091EC8F146A6B066A3ECEDBD2B219BA2FF6AC6D40EE",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/MAGAYA-Batch-Off-X.zip",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/MAGAYA-Batch-Off-X.zip",
         "delivery": "preserved original bytes",
-        "baseline_asset_id": 670088436
+        "baseline_asset_id": 670577836
       },
       {
-        "name": "CBP3499-V1-X.zip",
-        "bytes": 124645325,
-        "sha256": "62B029BE348D23A108172B0FDB77ED37818E5181408A8378D04F6B191873D066",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-generic-ota-2026102302/CBP3499-V1-X.zip",
+        "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "bytes": 17257051,
+        "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
         "delivery": "preserved original bytes",
-        "baseline_asset_id": 670088053
+        "baseline_asset_id": 670577675
+      },
+      {
+        "name": "OTA.cbp3499-x.windows-x64.stable.zip",
+        "bytes": 124703643,
+        "sha256": "B4563160C07F48A0E3B546567D8D758C263716943004AF716D6D7ED3E938DC98",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/OTA.cbp3499-x.windows-x64.stable.zip",
+        "delivery": "manual generic-OTA bootstrap",
+        "replaces_baseline_asset_id": 670577881
       }
     ],
     "unchanged_assets": [
+      "ACELYNK_Portable.V3.8.7X.zip",
       "FDA-ITACS-Checker-V3.1X.zip",
       "FDA-Mail-Sender-V3X.zip",
       "MAGAYA-Batch-Off-X.zip",
-      "CBP3499-V1-X.zip"
+      "OTA.temu-invoice-4.6-x.windows-x64.stable.zip"
     ],
     "backend_ota_manifests_modified": false,
     "automatic_client_update_activated": false,
-    "prior_verification_fields": "Historical results retained; not rerun by this publication."
+    "prior_verification_fields": "Historical results retain their original scope; this metadata preparation does not rerun or extend them to the new CBP bootstrap.",
+    "replaced_cbp_asset": {
+      "asset_id": 670577881,
+      "name": "CBP3499-V1-X.zip",
+      "size": 124645325,
+      "sha256": "62b029be348d23a108172b0fdb77ed37818e5181408a8378d04f6b191873d066"
+    }
   },
   "generic_ota_bootstrap": {
     "products": [
@@ -503,5 +517,73 @@
     "program_only_restore_on_failed_health": true,
     "chrome_extension_ota_supported": false,
     "live_business_operations_performed_for_this_publication": false
+  },
+  "cbp3499_v1_x_ota_bootstrap": {
+    "version": "1.0.4X",
+    "build": 2026102802,
+    "product_id": "cbp3499-x",
+    "asset": "OTA.cbp3499-x.windows-x64.stable.zip",
+    "stable_executable": "CBP3499 V1 X.exe",
+    "distribution_mode": "manual bootstrap download only",
+    "manual_bootstrap_required_for_pre_ota_clients": true,
+    "backend_ota_manifest_published": false,
+    "signer_policy_binding_approved": false,
+    "automatic_client_update_activated": false,
+    "actual_signed_client_metadata": {
+      "backend_app_id": "temu-invoice-4.6-x",
+      "build": 2026102802,
+      "channel": "stable",
+      "format": 1,
+      "health_protocol": "trz-health-v1",
+      "lifecycle_protocol": "trz-lifecycle-v1",
+      "platform": "windows-x64",
+      "product_id": "cbp3499-x",
+      "purpose": "trz-ota-client-v1",
+      "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400",
+      "version": "1.0.4X"
+    },
+    "actual_authenticode_digest_and_original_signer_verified": true,
+    "certificate_trust": "self_signed_untrusted_root",
+    "final_gui_and_functional_acceptance": "passed: final signed package; retained local report SHA256 binding",
+    "final_ota_update_and_lifecycle_acceptance": "passed: two isolated frozen cases; no production OTA manifest publication",
+    "published_asset_download_and_internal_hash_readback": "passed: exact release-ID draft asset downloads, six ZIPs and every internal file; published URL readback retained in private release journal",
+    "historical_cbp_verification_scope": "cbp3499_v1_x_verification retains the original 1.0.3X acceptance only; it does not claim acceptance of this bootstrap.",
+    "real_business_operations_performed_for_this_publication": false,
+    "final_acceptance": {
+      "artifact_binding": {
+        "exe_sha256": "3241531B92E565A827BB4A466184BE3FA4C6FD4F960464CD094541E71411E589",
+        "zip_sha256": "B4563160C07F48A0E3B546567D8D758C263716943004AF716D6D7ED3E938DC98"
+      },
+      "frozen_gui": {
+        "status": "passed",
+        "report_sha256": "ea15fcc75182ea51be2b28689751f1b3df28085b510c243490b0bbca0141e48d",
+        "scope": "actual final signed client; no real business submissions"
+      },
+      "frozen_health": {
+        "status": "passed",
+        "report_sha256": "28885009c01af28636bdd9102877dc30af1f9c605a40f06f02e33f82b3f4a10a",
+        "scope": "inert final signed client health and ONNX model load"
+      },
+      "depth_privacy_audit": {
+        "status": "passed",
+        "report_sha256": "4b754f7f7882a087dc4f0c60b831eb35bb17cf5ff8ea85bc0453498d2b835fcc",
+        "archive_entries": 2687,
+        "gaps": 0,
+        "violations": 0
+      },
+      "frozen_ota": {
+        "status": "passed",
+        "report_sha256": "77c03657359f308e56013dd7bbc73dc6c7968717e54673eea8450eae86cec632",
+        "case_count": 2,
+        "scope": "isolated cross-version update and failed-health program-only restore; not public OTA publication"
+      }
+    },
+    "remote_download_verification": {
+      "status": "passed",
+      "scope": "exact release-ID draft assets before publication",
+      "zip_count": 6,
+      "internal_file_count": 45
+    },
+    "public_ota_receipt_download": "unavailable/not verified in this publication"
   }
 }
