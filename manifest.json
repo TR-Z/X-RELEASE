@@ -2,25 +2,25 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-cbp3499-ota-2026102802",
-  "status": "verified manual bootstrap; backend OTA manifest unchanged",
+  "release": "x-acelynk-layout-2026102801",
+  "status": "MAGAYA layout repair; verified manual client package; backend OTA manifests unchanged",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
     {
       "name": "ACELYNK_Portable.V3.8.7X.zip",
-      "bytes": 47892445,
-      "sha256": "4245EAE3F24A57D3D608BA04BE8FD7572FE4563EE38A69EB7CBCC0208AF531AA",
+      "bytes": 47896544,
+      "sha256": "17243AC2201036F6A196C1CFBAD5C22045E0831F928062A368FE736F8BE0B5BC",
       "files": [
         {
           "name": "ACELYNK Tool X.exe",
-          "bytes": 48102104,
-          "sha256": "1EE70EABB6BC957615BD55595FD1458D2631B1B62A226133AA3D709DBB2A1F70"
+          "bytes": 48105688,
+          "sha256": "13D59BCCF2D7662E0650CA79BDD365E606419B703E3A4D4371B8CAE2ECF064F4"
         }
       ],
       "product_id": "acelynk-portable-x",
       "version": "3.8.7X",
-      "build": 2026102302,
+      "build": 2026102801,
       "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453"
     },
     {
@@ -435,67 +435,67 @@
   },
   "release_distribution": {
     "mode": "GitHub release and manual bootstrap only",
-    "tag": "x-cbp3499-ota-2026102802",
+    "tag": "x-acelynk-layout-2026102801",
     "assets": [
       {
         "name": "ACELYNK_Portable.V3.8.7X.zip",
-        "bytes": 47892445,
-        "sha256": "4245EAE3F24A57D3D608BA04BE8FD7572FE4563EE38A69EB7CBCC0208AF531AA",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/ACELYNK_Portable.V3.8.7X.zip",
-        "delivery": "preserved original bytes",
-        "baseline_asset_id": 670577579
+        "bytes": 47896544,
+        "sha256": "17243AC2201036F6A196C1CFBAD5C22045E0831F928062A368FE736F8BE0B5BC",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/ACELYNK_Portable.V3.8.7X.zip",
+        "delivery": "MAGAYA layout compatibility repair",
+        "baseline_asset_id": 686145243
       },
       {
         "name": "FDA-ITACS-Checker-V3.1X.zip",
         "bytes": 338293,
         "sha256": "E353A78452F906EECE0575272C5747C8AE463D2CC125FA296891BC634ACB27FA",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/FDA-ITACS-Checker-V3.1X.zip",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/FDA-ITACS-Checker-V3.1X.zip",
         "delivery": "preserved original bytes",
-        "baseline_asset_id": 670577724
+        "baseline_asset_id": 686145451
       },
       {
         "name": "FDA-Mail-Sender-V3X.zip",
         "bytes": 57719,
         "sha256": "11612B8857AAEEF0AC93C621114C2677D4990F0A895334862872F22890B26A22",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/FDA-Mail-Sender-V3X.zip",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/FDA-Mail-Sender-V3X.zip",
         "delivery": "preserved original bytes",
-        "baseline_asset_id": 670577776
+        "baseline_asset_id": 686145569
       },
       {
         "name": "MAGAYA-Batch-Off-X.zip",
         "bytes": 29490,
         "sha256": "7BF25ED6DFA37A8C4A192091EC8F146A6B066A3ECEDBD2B219BA2FF6AC6D40EE",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/MAGAYA-Batch-Off-X.zip",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/MAGAYA-Batch-Off-X.zip",
         "delivery": "preserved original bytes",
-        "baseline_asset_id": 670577836
-      },
-      {
-        "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "bytes": 17257051,
-        "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "delivery": "preserved original bytes",
-        "baseline_asset_id": 670577675
+        "baseline_asset_id": 686145676
       },
       {
         "name": "OTA.cbp3499-x.windows-x64.stable.zip",
         "bytes": 124703643,
         "sha256": "B4563160C07F48A0E3B546567D8D758C263716943004AF716D6D7ED3E938DC98",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-ota-2026102802/OTA.cbp3499-x.windows-x64.stable.zip",
-        "delivery": "manual generic-OTA bootstrap",
-        "replaces_baseline_asset_id": 670577881
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/OTA.cbp3499-x.windows-x64.stable.zip",
+        "delivery": "preserved original bytes",
+        "baseline_asset_id": 686145962
+      },
+      {
+        "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "bytes": 17257051,
+        "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "delivery": "preserved original bytes",
+        "baseline_asset_id": 686145829
       }
     ],
     "unchanged_assets": [
-      "ACELYNK_Portable.V3.8.7X.zip",
       "FDA-ITACS-Checker-V3.1X.zip",
       "FDA-Mail-Sender-V3X.zip",
       "MAGAYA-Batch-Off-X.zip",
+      "OTA.cbp3499-x.windows-x64.stable.zip",
       "OTA.temu-invoice-4.6-x.windows-x64.stable.zip"
     ],
     "backend_ota_manifests_modified": false,
     "automatic_client_update_activated": false,
-    "prior_verification_fields": "Historical results retain their original scope; this metadata preparation does not rerun or extend them to the new CBP bootstrap.",
+    "prior_verification_fields": "Historical results retain their original scope; this release binds the current ACELYNK repair acceptance and preserves all five other current package bytes.",
     "replaced_cbp_asset": {
       "asset_id": 670577881,
       "name": "CBP3499-V1-X.zip",
@@ -585,5 +585,25 @@
       "internal_file_count": 45
     },
     "public_ota_receipt_download": "unavailable/not verified in this publication"
+  },
+  "acelynk_magaya_layout_repair": {
+    "version": "3.8.7X",
+    "build": 2026102801,
+    "product_id": "acelynk-portable-x",
+    "original_authentication_identity_and_sdk_preserved": true,
+    "original_signer_preserved": true,
+    "entry_identity_and_semantic_control_matching": true,
+    "validate_dialog_and_batch_compatibility_repaired": true,
+    "other_current_client_zip_bytes_preserved": true,
+    "backend_ota_manifests_modified": false,
+    "public_ota_push_performed": false,
+    "real_business_actions_for_this_x_publication": false,
+    "physical_second_computer_tested": false,
+    "historical_verification_scope": "Earlier verification fields retain their original historical scope.",
+    "final_acceptance_sha256": "7C3735EEF01576BBDDDFA602CA21DF592AEFC957553D3A69B164E9D289083148",
+    "artifact_binding": {
+      "exe_sha256": "13D59BCCF2D7662E0650CA79BDD365E606419B703E3A4D4371B8CAE2ECF064F4",
+      "zip_sha256": "17243AC2201036F6A196C1CFBAD5C22045E0831F928062A368FE736F8BE0B5BC"
+    }
   }
 }
