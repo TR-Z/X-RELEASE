@@ -2,57 +2,57 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-cbp3499-update-2026102901",
-  "status": "CBP3499 1.0.6X verified client update; five packages preserved; backend OTA manifests unchanged",
+  "release": "x-server-auto7-2026102902",
+  "status": "DRAFT ONLY: server-controlled first-online desktop clients; phone primary capability not yet verified; not a production or OTA publication",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
     {
-      "name": "ACELYNK_Portable.V3.8.8X.zip",
-      "bytes": 47911498,
-      "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
+      "name": "ACELYNK_Portable.V3.8.9X.zip",
+      "bytes": 47917501,
+      "sha256": "79381D1ABAA2F8EC5712150DA1ED10EA52246B9CD8F8EC196A19267E0AEBC3D4",
       "files": [
         {
           "name": "ACELYNK Tool X.exe",
-          "bytes": 48120536,
-          "sha256": "CED707028DF76EE16656FF397C3589720A8956C5DB2D1795EFC0AFF952C5B7B4"
+          "bytes": 48126680,
+          "sha256": "A6D8ECF68E10FE6CE9348B5A4283B153CD23AFB89F9A112B12F4F3ACD10CD575"
         }
       ],
       "product_id": "acelynk-portable-x",
-      "version": "3.8.8X",
-      "build": 2026102803,
+      "version": "3.8.9X",
+      "build": 2026102902,
       "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453"
     },
     {
       "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-      "bytes": 17272940,
-      "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
+      "bytes": 17280636,
+      "sha256": "FED81060EE13E4130F3A3537EC114C68114EE40A38F2C36092E6E5B797837A88",
       "files": [
         {
           "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.exe",
-          "bytes": 17284608,
-          "sha256": "A07D6B2F0E413A9EE1C48538BFAD01CCD71448179256C5A7E6AC012833E9D148"
+          "bytes": 17292288,
+          "sha256": "BC2CFE8E14AE544977C24F89F3D3C4B4A3D8F9D2C11869BA0D1B058CDF1022A2"
         }
       ],
       "product_id": "temu-invoice-4.6-x",
-      "version": "4.6.2X",
-      "build": 2026102803,
+      "version": "4.6.3X",
+      "build": 2026102902,
       "signer_thumbprint": "516DE0AC4C0686C671578EDB7A98B3EB054176B9"
     },
     {
       "name": "OTA.cbp3499-x.windows-x64.stable.zip",
-      "bytes": 125080330,
-      "sha256": "63BAAF9B08083F14411F35FBB8A97D35ADB1BB3326F1E089C8BBC072FE4A41B5",
+      "bytes": 125077134,
+      "sha256": "AD5E0DF639DE608CD047C64FA624E01DF57B2DCE196AB5B7BD2211D1B1F8DABF",
       "files": [
         {
           "name": "CBP3499 V1 X.exe",
-          "bytes": 125851400,
-          "sha256": "6535FD1FD08D0E343BB1353F965DBC02737E28D873C16553500B3E05F3AB4D77"
+          "bytes": 125848760,
+          "sha256": "CDAD2C10BA0B7DBBD392934186282A77320F33C18E6893E341BAEA131FB2B9D7"
         }
       ],
       "product_id": "cbp3499-x",
-      "version": "1.0.6X",
-      "build": 2026102901,
+      "version": "1.0.7X",
+      "build": 2026102902,
       "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
     },
     {
@@ -359,11 +359,14 @@
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
-    "first_use": "Desktop clients retain seven-day local trial. Chrome has no client-local/offline trial; manual approval remains, with an optional seven-day first-contact customer grant only while Owner 2.11.5 is online and its global switch is enabled.",
+    "first_use": "New ACELYNK 3.8.9X, TEMU 4.6.3X and CBP3499 1.0.7X require their first online signed permit from the same Eternal Terminal X global seven-day switch. Switch off leaves new credentials pending. No new unsigned local seven-day trial.",
     "revocation": "received on reconnect",
     "existing_backend_trial_ledger_authoritative": true,
     "existing_clients_preserved": true,
-    "existing_approval_identity_preserved": true
+    "existing_approval_identity_preserved": true,
+    "legacy_unsigned": "Report the original local start online; only the original remaining deadline may be signed after backend policy validation. Never restart seven days or revive expired/disabled/rejected records.",
+    "signed_permits": "Existing owner-signed trial, customer and permanent permits retain their original identity and exact term; fixed-deadline permits remain usable offline only until that original deadline.",
+    "capability_requirement": "GET /v2/device/capabilities: trz-capabilities-v1 including server-auto7-v1; old strict health response remains unchanged. Current phone primary support is still pending."
   },
   "chrome_extensions": [
     {
@@ -872,5 +875,91 @@
       "internal_file_count": 46
     },
     "public_ota_receipt_download": "unavailable/not verified in this publication"
+  },
+  "distribution_state": {
+    "draft": true,
+    "published": false,
+    "production_OTA_manifest_published": false,
+    "phone_primary_capability_verified": false,
+    "previous_latest_release_id": 428360042,
+    "previous_latest_tag": "x-cbp3499-update-2026102901",
+    "target_branch": "codex/server-auto7-clients-20261029"
+  },
+  "server_auto7_client_candidate": {
+    "format": 1,
+    "scope": "Three reviewed desktop client updates only; all other current client packages preserved byte-for-byte",
+    "draft_only": true,
+    "production_ready": false,
+    "versions": {
+      "acelynk-portable-x": {
+        "version": "3.8.9X",
+        "build": 2026102902,
+        "zip_sha256": "79381D1ABAA2F8EC5712150DA1ED10EA52246B9CD8F8EC196A19267E0AEBC3D4",
+        "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453"
+      },
+      "cbp3499-x": {
+        "version": "1.0.7X",
+        "build": 2026102902,
+        "zip_sha256": "AD5E0DF639DE608CD047C64FA624E01DF57B2DCE196AB5B7BD2211D1B1F8DABF",
+        "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
+      },
+      "temu-invoice-4.6-x": {
+        "version": "4.6.3X",
+        "build": 2026102902,
+        "zip_sha256": "FED81060EE13E4130F3A3537EC114C68114EE40A38F2C36092E6E5B797837A88",
+        "signer_thumbprint": "516DE0AC4C0686C671578EDB7A98B3EB054176B9"
+      }
+    },
+    "sdk_source_sha256": "C6AC397DE44E4F3FDC83B33E4A672E5529A20618F1F8BBB24655FB5A8B05E88B",
+    "source_regression": {
+      "methods": 25,
+      "subcases": 82
+    },
+    "frozen_verification": {
+      "acelynk": {
+        "launcher_checks": 46,
+        "authorization_checks": 46,
+        "health": true,
+        "source_and_actual_PYZ_bound": true
+      },
+      "temu": {
+        "authorization_checks": 46,
+        "health": true,
+        "source_and_actual_PYZ_bound": true
+      },
+      "cbp3499": {
+        "health": true,
+        "actual_PYZ_bound": true,
+        "private_boundary_violations": 0,
+        "private_boundary_gaps": 0,
+        "authorized_dropdown_categories": 7
+      }
+    },
+    "unchanged_client_packages": [
+      {
+        "name": "FDA-ITACS-Checker-V3.1X.zip",
+        "bytes": 340464,
+        "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571"
+      },
+      {
+        "name": "FDA-Mail-Sender-V3X.zip",
+        "bytes": 58763,
+        "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4"
+      },
+      {
+        "name": "MAGAYA-Batch-Off-X.zip",
+        "bytes": 30309,
+        "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262"
+      }
+    ],
+    "product_ids_original_signatures_device_keys_state_paths_customer_groups_and_approval_terms_preserved": true,
+    "OTA_supported_desktop_products": [
+      "acelynk-portable-x",
+      "cbp3499-x",
+      "temu-invoice-4.6-x"
+    ],
+    "Chrome_extension_OTA_supported": false,
+    "scope_limits": "Synthetic isolated source/runtime/package tests and actual signed-package verification; no real business or live device approval. No production OTA manifest, phone owner installation or desktop replacement has occurred.",
+    "historical_sections": "Earlier manifest verification sections retain their original package/version scope and are not acceptance evidence for these candidates."
   }
 }
