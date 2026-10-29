@@ -2,8 +2,8 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-client-notify-2026102803",
-  "status": "Six client arrival notification update; verified manual packages; backend OTA manifests unchanged",
+  "release": "x-cbp3499-update-2026102901",
+  "status": "CBP3499 1.0.6X verified client update; five packages preserved; backend OTA manifests unchanged",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
@@ -41,18 +41,18 @@
     },
     {
       "name": "OTA.cbp3499-x.windows-x64.stable.zip",
-      "bytes": 124718255,
-      "sha256": "AD23A15966F6B50909871065E8AC82F9D49795E1F03147E7F700997B5CF2637A",
+      "bytes": 125080330,
+      "sha256": "63BAAF9B08083F14411F35FBB8A97D35ADB1BB3326F1E089C8BBC072FE4A41B5",
       "files": [
         {
           "name": "CBP3499 V1 X.exe",
-          "bytes": 125487248,
-          "sha256": "6F1DFA96E76EB7C1081251727DBEF500BE43F56023907930ECBADC4F178CE354"
+          "bytes": 125851400,
+          "sha256": "6535FD1FD08D0E343BB1353F965DBC02737E28D873C16553500B3E05F3AB4D77"
         }
       ],
       "product_id": "cbp3499-x",
-      "version": "1.0.5X",
-      "build": 2026102803,
+      "version": "1.0.6X",
+      "build": 2026102901,
       "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
     },
     {
@@ -442,7 +442,7 @@
   "cbp3499_v1_x": {
     "product_id": "cbp3499-x",
     "name": "CBP3499 V1 X",
-    "app_version": "1.0.5X",
+    "app_version": "1.0.6X",
     "asset": "OTA.cbp3499-x.windows-x64.stable.zip",
     "authorization_backend": "existing Eternal Terminal X",
     "approval": "independent per-product owner approval",
@@ -451,8 +451,9 @@
     "zero_means": "unlimited",
     "first_local_trial_days": 7,
     "formal_offline_deadline": "original approved expiry",
-    "customer_data_included": false,
-    "build": 2026102803
+    "customer_data_included": true,
+    "build": 2026102901,
+    "customer_data_scope": "User-authorized dropdown defaults only; no saved history, credentials, keys or authorization state"
   },
   "cbp3499_v1_x_verification": {
     "status": "verified",
@@ -504,49 +505,49 @@
   },
   "release_distribution": {
     "mode": "GitHub release and manual bootstrap only",
-    "tag": "x-client-notify-2026102803",
+    "tag": "x-cbp3499-update-2026102901",
     "assets": [
       {
         "name": "ACELYNK_Portable.V3.8.8X.zip",
         "bytes": 47911498,
         "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/ACELYNK_Portable.V3.8.8X.zip",
-        "delivery": "Client arrival notification update; original identity and authorization retained"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/ACELYNK_Portable.V3.8.8X.zip",
+        "delivery": "Preserved original package bytes"
       },
       {
         "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
         "bytes": 17272940,
         "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "delivery": "Client arrival notification update; original identity and authorization retained"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "delivery": "Preserved original package bytes"
       },
       {
         "name": "OTA.cbp3499-x.windows-x64.stable.zip",
-        "bytes": 124718255,
-        "sha256": "AD23A15966F6B50909871065E8AC82F9D49795E1F03147E7F700997B5CF2637A",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/OTA.cbp3499-x.windows-x64.stable.zip",
-        "delivery": "Client arrival notification update; original identity and authorization retained"
+        "bytes": 125080330,
+        "sha256": "63BAAF9B08083F14411F35FBB8A97D35ADB1BB3326F1E089C8BBC072FE4A41B5",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/OTA.cbp3499-x.windows-x64.stable.zip",
+        "delivery": "CBP3499 client update"
       },
       {
         "name": "FDA-ITACS-Checker-V3.1X.zip",
         "bytes": 340464,
         "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/FDA-ITACS-Checker-V3.1X.zip",
-        "delivery": "Client arrival notification update; original identity and authorization retained"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/FDA-ITACS-Checker-V3.1X.zip",
+        "delivery": "Preserved original package bytes"
       },
       {
         "name": "FDA-Mail-Sender-V3X.zip",
         "bytes": 58763,
         "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/FDA-Mail-Sender-V3X.zip",
-        "delivery": "Client arrival notification update; original identity and authorization retained"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/FDA-Mail-Sender-V3X.zip",
+        "delivery": "Preserved original package bytes"
       },
       {
         "name": "MAGAYA-Batch-Off-X.zip",
         "bytes": 30309,
         "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/MAGAYA-Batch-Off-X.zip",
-        "delivery": "Client arrival notification update; original identity and authorization retained"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/MAGAYA-Batch-Off-X.zip",
+        "delivery": "Preserved original package bytes"
       }
     ],
     "unchanged_assets": [],
@@ -792,5 +793,84 @@
       "switch_off": "new credentials wait for manual approval",
       "existing_records_retroactively_reset": false
     }
+  },
+  "cbp3499_v1_x_update_20261029": {
+    "version": "1.0.6X",
+    "build": 2026102901,
+    "product_id": "cbp3499-x",
+    "asset": "OTA.cbp3499-x.windows-x64.stable.zip",
+    "stable_executable": "CBP3499 V1 X.exe",
+    "actual_signed_client_metadata": {
+      "backend_app_id": "temu-invoice-4.6-x",
+      "build": 2026102901,
+      "channel": "stable",
+      "format": 1,
+      "health_protocol": "trz-health-v1",
+      "lifecycle_protocol": "trz-lifecycle-v1",
+      "platform": "windows-x64",
+      "product_id": "cbp3499-x",
+      "purpose": "trz-ota-client-v1",
+      "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400",
+      "version": "1.0.6X"
+    },
+    "backend_ota_manifest_published": false,
+    "signer_policy_binding_approved": false,
+    "automatic_client_update_activated": false,
+    "historical_verification_fields_are_not_evidence_for_this_package": true,
+    "business_interface_scope": "Both ordinary and X include the user-requested system-detail import button; X adds no extra authorization or OTA controls",
+    "historical_baseline_release": "x-client-notify-2026102803",
+    "final_acceptance": {
+      "artifact_binding": {
+        "exe_sha256": "6535FD1FD08D0E343BB1353F965DBC02737E28D873C16553500B3E05F3AB4D77",
+        "zip_sha256": "63BAAF9B08083F14411F35FBB8A97D35ADB1BB3326F1E089C8BBC072FE4A41B5"
+      },
+      "frozen_gui": {
+        "status": "passed",
+        "report_sha256": "fb9825f757b984e7b442c30c0c99e04430db35129c91a90c4cad500ee0aaa91f",
+        "same_business_interface_as_ordinary": true,
+        "authorization_or_update_controls_added": false,
+        "scope": "actual final signed X client; both ordinary and X include the user-requested system-detail import button; same business interface, no extra authorization/OTA controls; no real business submissions"
+      },
+      "frozen_health": {
+        "status": "passed",
+        "report_sha256": "1cfa16f54ea2866a15ec837bb6d7a4ad395acd2fe2125bd5e6fac0bcfaaf1fd7",
+        "scope": "inert final signed client health and ONNX model load"
+      },
+      "depth_privacy_audit": {
+        "status": "passed",
+        "report_sha256": "e6de34b1ea0a1f808ea7662c4a40169d9447165c28a81f4d59026d45901f1149",
+        "archive_entries": 2753,
+        "gaps": 0,
+        "violations": 0
+      },
+      "update_regression": {
+        "status": "passed",
+        "report_sha256": "52ffa11f93fa11ffed11064be9ce910ad24f40ab4bc65086c6d6d91649cf622d",
+        "scope": "actual final signed package; source freeze, frozen SDK, UI/PDF and MAWB regressions"
+      },
+      "authorized_dropdown_defaults": {
+        "user_authorized": true,
+        "options_only": true,
+        "embedded_options_sha256": "72399B7CA7AD2C0C10A0CFA10F2133C4282514D98023F472C0436BD8A317AB6B",
+        "history_included": false,
+        "passwords_or_private_keys_or_authorization_state_included": false
+      },
+      "frozen_ota": {
+        "status": "passed",
+        "report_sha256": "4d42e37e81fda4af8324457ca7d417bb8790a6ab8d8c64aab14a35f0878103c8",
+        "case_count": 2,
+        "scope": "isolated cross-version update and failed-health program-only restore; not public OTA publication"
+      }
+    },
+    "final_gui_and_functional_acceptance": "passed: final signed package; retained local report SHA256 binding",
+    "final_ota_update_and_lifecycle_acceptance": "passed: two isolated frozen cases; no production OTA manifest publication",
+    "published_asset_download_and_internal_hash_readback": "passed: exact release-ID draft asset downloads, six ZIPs and every internal file; published URL readback retained in private release journal",
+    "remote_download_verification": {
+      "status": "passed",
+      "scope": "exact release-ID draft assets before publication",
+      "zip_count": 6,
+      "internal_file_count": 46
+    },
+    "public_ota_receipt_download": "unavailable/not verified in this publication"
   }
 }
