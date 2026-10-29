@@ -6,16 +6,24 @@ Copyright (c) 2026 Tingrui Zhang
 
 [Releases](https://github.com/TR-Z/X-RELEASE/releases)
 
-- ACELYNK_Portable V3.8.7X
-- TEMU-Invoice-PDF-Converter-4.6完整版X
+## 当前客户端（2026-10-28）
 
-- FDA-ITACS-Checker-V3.1X
-- FDA-Mail-Sender-V3X
+- ACELYNK Portable X 3.8.8X
+- TEMU Invoice X 4.6.2X
+- CBP3499 V1 X 1.0.5X
+- FDA ITACS Checker X 3.1.1
+- FDA Mail Sender X 3.0.3
+- MAGAYA Batch Off X 1.0.1
 
-- MAGAYA Batch Off X
-- CBP3499 V1 X
+六个客户端增加独立接入通知上报。拥有者配置永恒终端X 2.11.5通知接收器后，主后台正常关闭时仍可接收接入消息；设备身份、产品期限、数据路径和原签名保留。
 
-ACELYNK V3.8.7X：暂停后继续会在原 Chrome 中重新登录过期会话，
+Chrome没有客户端本地或离线试用，保留人工审批。仅当Owner 2.11.5主后台在线且全局开关开启时，真正首次的新插件凭据可获普通customer许可，期限为7天；关闭开关后，新凭据等待审批，旧记录不追溯或重置。
+
+本次只更新手动下载包，不推送生产OTA清单。桌面三个包保留已有OTA能力，Chrome插件仍不支持OTA。
+
+## 使用说明
+
+ACELYNK V3.8.8X：暂停后继续会在原 Chrome 中重新登录过期会话，
 确认后执行剩余 Entry；已完成条目不重复。暂停期间仅提示一次，
 不重复刷新等待日志；实际恢复后显示本次暂停总时长。
 
@@ -33,11 +41,13 @@ CBP3499 V1 X 界面沿用普通版，不增加试用、授权状态或刷新授�
 
 FDA Mail Sender V3X：打开网页时保持隐藏，点击 Chrome 插件图标后打开。版本与授权身份保留，邮件发送流程不变。
 
+## 历史发布记录
+
 MAGAYA Batch Off X 1.0.0：修复操作超时后重复点击无响应；未完成时再次点击只结束旧任务，再点击才重新执行。过期或页面切换后的操作不会继续取消 Batch。取消后仍可手动重新勾选。原授权身份、后台和权限保留，其余五个客户端包保留原字节。
 
 MAGAYA Batch Off X 1.0.0：优化大单据的 Batch 定位，减少重复全表扫描。超时恢复、第二次点击终止、手动勾回及原授权身份、后台和权限均保留，其余五个客户端包保留原字节。
 
-## 通用 OTA 启动包（2026102302）
+### 通用 OTA 启动包（2026102302）
 
 ACELYNK V3.8.7X 与 TEMU Invoice PDF Converter 4.6X 已加入通用 OTA 客户端能力；本次仅更新 GitHub 下载包，供手动安装启动包，不修改或启用后台 OTA 更新清单，也不会自动推送本次版本。
 
@@ -45,7 +55,7 @@ ACELYNK V3.8.7X 与 TEMU Invoice PDF Converter 4.6X 已加入通用 OTA 客户�
 
 ACELYNK 下载文件为 `ACELYNK_Portable.V3.8.7X.zip`；TEMU 下载文件为 `OTA.temu-invoice-4.6-x.windows-x64.stable.zip`。其余四个现行包保留原字节。未接入 OTA 的旧客户端仍需先手动安装；本次不代表其他 X 程序或 Chrome 插件已经支持 OTA。
 
-## CBP3499 V1 X OTA 启动包（1.0.4X / 2026102802）
+### CBP3499 V1 X OTA 启动包（1.0.4X / 2026102802）
 
 CBP3499 V1 X 1.0.4X（build `2026102802`）加入通用 OTA 客户端能力，下载附件为 `OTA.cbp3499-x.windows-x64.stable.zip`，解压后仍只有稳定入口 `CBP3499 V1 X.exe`。旧的无 OTA 版本需要在程序自然退出后手动替换一次 EXE；原下拉选项、生成记录、产品身份和数据路径保留。
 
@@ -55,7 +65,7 @@ CBP3499 V1 X 1.0.4X（build `2026102802`）加入通用 OTA 客户端能力，�
 
 本次只替换原 CBP 下载包，其他五个现行客户端 ZIP 保留原字节。其他旧程序不会因这次发布自动获得 OTA；Chrome 插件目前仍不支持 OTA。
 
-## ACELYNK V3.8.7X MAGAYA 页面兼容修复（2026102801）
+### ACELYNK V3.8.7X MAGAYA 页面兼容修复（2026102801）
 
 显示版本仍为 V3.8.7X，内部更新 build 递增为 `2026102801`。同步新版 MAGAYA 的控件识别、Validate 后确认弹窗及 Batch 操作兼容修复，定位采用页面控件及当前 Entry 身份校验。保留原界面、队列、暂停后重新登录及剩余条目续做行为。
 

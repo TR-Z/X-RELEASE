@@ -2,48 +2,74 @@
   "name": "TR-Z X",
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
-  "release": "x-acelynk-layout-2026102801",
-  "status": "MAGAYA layout repair; verified manual client package; backend OTA manifests unchanged",
+  "release": "x-client-notify-2026102803",
+  "status": "Six client arrival notification update; verified manual packages; backend OTA manifests unchanged",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
     {
-      "name": "ACELYNK_Portable.V3.8.7X.zip",
-      "bytes": 47896544,
-      "sha256": "17243AC2201036F6A196C1CFBAD5C22045E0831F928062A368FE736F8BE0B5BC",
+      "name": "ACELYNK_Portable.V3.8.8X.zip",
+      "bytes": 47911498,
+      "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
       "files": [
         {
           "name": "ACELYNK Tool X.exe",
-          "bytes": 48105688,
-          "sha256": "13D59BCCF2D7662E0650CA79BDD365E606419B703E3A4D4371B8CAE2ECF064F4"
+          "bytes": 48120536,
+          "sha256": "CED707028DF76EE16656FF397C3589720A8956C5DB2D1795EFC0AFF952C5B7B4"
         }
       ],
       "product_id": "acelynk-portable-x",
-      "version": "3.8.7X",
-      "build": 2026102801,
+      "version": "3.8.8X",
+      "build": 2026102803,
       "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453"
     },
     {
       "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-      "bytes": 17257051,
-      "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
+      "bytes": 17272940,
+      "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
       "files": [
         {
           "name": "TEMU-Invoice-PDF-Converter-4.6完整版X.exe",
-          "bytes": 17268736,
-          "sha256": "201453341430F92E09287C55161A29A612CAD683B59868AE948A3B87130EA4C0"
+          "bytes": 17284608,
+          "sha256": "A07D6B2F0E413A9EE1C48538BFAD01CCD71448179256C5A7E6AC012833E9D148"
         }
       ],
       "product_id": "temu-invoice-4.6-x",
-      "version": "4.6X",
-      "build": 2026102302,
+      "version": "4.6.2X",
+      "build": 2026102803,
       "signer_thumbprint": "516DE0AC4C0686C671578EDB7A98B3EB054176B9"
     },
     {
-      "name": "FDA-ITACS-Checker-V3.1X.zip",
-      "bytes": 338293,
-      "sha256": "E353A78452F906EECE0575272C5747C8AE463D2CC125FA296891BC634ACB27FA",
+      "name": "OTA.cbp3499-x.windows-x64.stable.zip",
+      "bytes": 124718255,
+      "sha256": "AD23A15966F6B50909871065E8AC82F9D49795E1F03147E7F700997B5CF2637A",
       "files": [
+        {
+          "name": "CBP3499 V1 X.exe",
+          "bytes": 125487248,
+          "sha256": "6F1DFA96E76EB7C1081251727DBEF500BE43F56023907930ECBADC4F178CE354"
+        }
+      ],
+      "product_id": "cbp3499-x",
+      "version": "1.0.5X",
+      "build": 2026102803,
+      "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
+    },
+    {
+      "name": "FDA-ITACS-Checker-V3.1X.zip",
+      "bytes": 340464,
+      "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
+      "files": [
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/README.md",
+          "bytes": 1363,
+          "sha256": "C48C1A6AE768A7E716AA1EF5C38E6A85655CD22577EA3B7DF7DDE6461997DBA2"
+        },
+        {
+          "name": "FDA-ITACS-Checker-V3.1X/TR-Z.cat",
+          "bytes": 7266,
+          "sha256": "11EA302FA62EB45F80EF47A7DB0B21B4A3A1EEBE4C20345E8B1D3B6546C8DF94"
+        },
         {
           "name": "FDA-ITACS-Checker-V3.1X/assets/icon128.png",
           "bytes": 20634,
@@ -87,7 +113,7 @@
         {
           "name": "FDA-ITACS-Checker-V3.1X/manifest.json",
           "bytes": 1696,
-          "sha256": "9E257FE7615C66E83C7853578AD1801616CF2D6BCCD059699838EC1A0614BE36"
+          "sha256": "BE08E194B79ABC82047C15E8AD62A036261AC1AECA3FCFE6A701E16CF5213161"
         },
         {
           "name": "FDA-ITACS-Checker-V3.1X/page-api.js",
@@ -100,19 +126,9 @@
           "sha256": "A138A449F3456757DA5FC54746A4F8C224C93EF699D6ACDDB7870CBD13DB6E15"
         },
         {
-          "name": "FDA-ITACS-Checker-V3.1X/TR-Z.cat",
-          "bytes": 6949,
-          "sha256": "FB3975BEE53756CFC894A6EC49FAFB5EBC933476B64F9C574ECB6242EB7BC5C0"
-        },
-        {
           "name": "FDA-ITACS-Checker-V3.1X/vendor/EXCELJS-LICENSE.txt",
           "bytes": 1084,
           "sha256": "2ED526B7E7C7681DC2347995B5036DDF73DC27D0539CDEA59B6D4A72B63A57A0"
-        },
-        {
-          "name": "FDA-ITACS-Checker-V3.1X/vendor/exceljs.min.js",
-          "bytes": 947702,
-          "sha256": "7E49DA68588E250DBB8BBA190D2CAA8AB3787CC0284BDA1D8B2F805C4DF742C9"
         },
         {
           "name": "FDA-ITACS-Checker-V3.1X/vendor/LUCIDE-LICENSE.txt",
@@ -120,26 +136,34 @@
           "sha256": "B495047BD93A9B06913511076F504DABA17D5BBEB3E0650F3BB53A4220329C57"
         },
         {
+          "name": "FDA-ITACS-Checker-V3.1X/vendor/exceljs.min.js",
+          "bytes": 947702,
+          "sha256": "7E49DA68588E250DBB8BBA190D2CAA8AB3787CC0284BDA1D8B2F805C4DF742C9"
+        },
+        {
           "name": "FDA-ITACS-Checker-V3.1X/x-auth.js",
-          "bytes": 23451,
-          "sha256": "510C93A527D134CC4D2B858BA3026BDBBC736B84EB11CA9A02F84A280E5D35D3"
+          "bytes": 27592,
+          "sha256": "E376ED7E1E7AECAE811FA11CF589D743473CA790C92ECA6022748C1E2E9DAD8D"
         },
         {
           "name": "FDA-ITACS-Checker-V3.1X/x-config.js",
           "bytes": 834,
-          "sha256": "926021AF7AF2B262D32942D42E2EDDE6744D3D350BD54AADD5DB30BECE9AE77F"
+          "sha256": "226510B55C54E388D7627468CE59D2E44C54BB97F51DD66E48AB354E2800BD8C"
         }
-      ]
+      ],
+      "product_id": "fda-itacs-checker-x",
+      "version": "3.1.1",
+      "signer_thumbprint": "516DE0AC4C0686C671578EDB7A98B3EB054176B9"
     },
     {
       "name": "FDA-Mail-Sender-V3X.zip",
-      "bytes": 57719,
-      "sha256": "11612B8857AAEEF0AC93C621114C2677D4990F0A895334862872F22890B26A22",
+      "bytes": 58763,
+      "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
       "files": [
         {
           "name": "FDA-Mail-Sender-V3X/TR-Z.cat",
           "bytes": 5723,
-          "sha256": "84714465E4A35244CF3CADFAE853D917EED86D485053B1551B819F65763D35D9"
+          "sha256": "D86BF35622EDA43D90EDD2CBF15D6AE4DBDDFF2C5B84C52B9E03754A14B90F04"
         },
         {
           "name": "FDA-Mail-Sender-V3X/background.js",
@@ -174,7 +198,7 @@
         {
           "name": "FDA-Mail-Sender-V3X/manifest.json",
           "bytes": 2112,
-          "sha256": "030FE1B715535445CB0010A9D26224AB82A04D504EAB1CE404BCA6A8095C5975"
+          "sha256": "B5F33C11E5E09445E1189323925987E7A2F24595E8F7321F57D950639956684C"
         },
         {
           "name": "FDA-Mail-Sender-V3X/panel-host.js",
@@ -198,20 +222,23 @@
         },
         {
           "name": "FDA-Mail-Sender-V3X/x-auth.js",
-          "bytes": 23451,
-          "sha256": "510C93A527D134CC4D2B858BA3026BDBBC736B84EB11CA9A02F84A280E5D35D3"
+          "bytes": 27592,
+          "sha256": "E376ED7E1E7AECAE811FA11CF589D743473CA790C92ECA6022748C1E2E9DAD8D"
         },
         {
           "name": "FDA-Mail-Sender-V3X/x-config.js",
           "bytes": 822,
-          "sha256": "B997179F68FD675FFEB162F9AFEC0B1EEE32C8D829CE7C9A127F00E485E11177"
+          "sha256": "3172458F13E3C2B0958E8450F360FE67D1D344AB83570379F2D89AC21257A1A7"
         }
-      ]
+      ],
+      "product_id": "fda-mail-sender-x",
+      "version": "3.0.3",
+      "signer_thumbprint": "516DE0AC4C0686C671578EDB7A98B3EB054176B9"
     },
     {
-      "name": "MAGAYA Batch Off X.zip",
-      "bytes": 29490,
-      "sha256": "7BF25ED6DFA37A8C4A192091EC8F146A6B066A3ECEDBD2B219BA2FF6AC6D40EE",
+      "name": "MAGAYA-Batch-Off-X.zip",
+      "bytes": 30309,
+      "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
       "files": [
         {
           "name": "MAGAYA Batch Off X/LICENSE",
@@ -221,7 +248,7 @@
         {
           "name": "MAGAYA Batch Off X/TR-Z.cat",
           "bytes": 4808,
-          "sha256": "7AFEB589EFC9E5C8A8595D8DB3113F4956311660DB3BC28AE760BBB036D46346"
+          "sha256": "FC1011F04B78DBE947843D2732BE293F1AF7E321451DA52292586FC3139CCEE1"
         },
         {
           "name": "MAGAYA Batch Off X/batch-core.js",
@@ -251,7 +278,7 @@
         {
           "name": "MAGAYA Batch Off X/manifest.json",
           "bytes": 1384,
-          "sha256": "93A2A79037B6AFAEEA1CEB798663B927965B1C0D5BE1576EA7D9D5E88BC50960"
+          "sha256": "A9619F112605B95A978268246C92959348F4A0A73A6E55BADDA0A3B86791C972"
         },
         {
           "name": "MAGAYA Batch Off X/service-worker.js",
@@ -260,70 +287,79 @@
         },
         {
           "name": "MAGAYA Batch Off X/x-auth.js",
-          "bytes": 23451,
-          "sha256": "510C93A527D134CC4D2B858BA3026BDBBC736B84EB11CA9A02F84A280E5D35D3"
+          "bytes": 27592,
+          "sha256": "E376ED7E1E7AECAE811FA11CF589D743473CA790C92ECA6022748C1E2E9DAD8D"
         },
         {
           "name": "MAGAYA Batch Off X/x-config.js",
           "bytes": 801,
-          "sha256": "E523CA82CDBC36B513A1C15912D60C84371C1BBC4C7360CBB5D2CE81F51A6C84"
-        }
-      ]
-    },
-    {
-      "name": "OTA.cbp3499-x.windows-x64.stable.zip",
-      "bytes": 124703643,
-      "sha256": "B4563160C07F48A0E3B546567D8D758C263716943004AF716D6D7ED3E938DC98",
-      "files": [
-        {
-          "name": "CBP3499 V1 X.exe",
-          "bytes": 125472256,
-          "sha256": "3241531B92E565A827BB4A466184BE3FA4C6FD4F960464CD094541E71411E589"
+          "sha256": "ED2208F09B2E182098E6643A3101FADEB8DFA729A05EBD54D0871B318A72B392"
         }
       ],
-      "product_id": "cbp3499-x",
-      "version": "1.0.4X",
-      "build": 2026102802,
-      "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
+      "product_id": "magaya-batch-off-x",
+      "version": "1.0.1",
+      "signer_thumbprint": "516DE0AC4C0686C671578EDB7A98B3EB054176B9"
     }
   ],
   "verification": {
     "final_artifacts_validated": true,
-    "credential_and_runtime_residue_audit_passed": true,
-    "trz_authenticode_present": true,
-    "normal_gui_startup_and_authorization": true,
+    "fresh_draft_downloads_verified": true,
+    "original_signers_and_catalogs_verified": true,
+    "actual_compiled_notification_checks": 225,
+    "pure_plugins_isolated_browser_checks": 385,
+    "notification_thread_failure_checks": 131,
     "physical_second_computer_tested": false,
-    "offline_first_trial_and_reopen": true,
-    "formal_offline_until_original_expiry": true,
-    "normal_gui_with_backend_stopped": true,
-    "known_rejection_persisted": true,
-    "secret_audit_passed": true,
-    "offline_client_checks": 70,
-    "extracted_frozen_probe_checks_per_client": 21,
-    "final_normal_gui_startups": true,
-    "transient_server_error_and_rate_limit_preserve_original_offline_expiry": true,
-    "transient_http_statuses_tested": [
-      429,
-      500
-    ],
-    "pure_plugins_actual_chromium_idb_checks": 30,
-    "pure_plugins_cross_language_checks": 10,
-    "pure_plugins_manual_approval_and_no_trial": true,
-    "pure_plugins_signed_catalog_verified": true,
-    "batch_off_x_final_artifact_validated": true,
-    "batch_off_x_manual_no_trial": true,
-    "batch_off_x_credential_and_profile_audit_passed": true,
-    "acelynk_resume_login_final_artifact_validated": true,
-    "acelynk_resume_login_no_completed_entry_replay": true,
-    "acelynk_authorization_identity_and_sdk_unchanged": true,
-    "acelynk_pause_waiting_logs_quiet": true,
-    "acelynk_resume_reports_total_pause_duration": true,
-    "fda_mail_click_only_final_artifact_validated": true,
-    "fda_mail_click_only_authorization_identity_and_sdk_unchanged": true
+    "real_business_operations_performed": false,
+    "live_windows_notification_delivery_tested": false,
+    "scope": "Final signed desktop inert health plus actual PYZ SDK with host Python crypto and synthetic transport; isolated Chrome browser/catalog checks. Fresh draft downloads bind all six packages. No production OTA publication.",
+    "artifact_bindings": [
+      {
+        "name": "ACELYNK_Portable.V3.8.8X.zip",
+        "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
+        "bytes": 47911498,
+        "version": "3.8.8X",
+        "product_id": "acelynk-portable-x"
+      },
+      {
+        "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
+        "bytes": 17272940,
+        "version": "4.6.2X",
+        "product_id": "temu-invoice-4.6-x"
+      },
+      {
+        "name": "OTA.cbp3499-x.windows-x64.stable.zip",
+        "sha256": "AD23A15966F6B50909871065E8AC82F9D49795E1F03147E7F700997B5CF2637A",
+        "bytes": 124718255,
+        "version": "1.0.5X",
+        "product_id": "cbp3499-x"
+      },
+      {
+        "name": "FDA-ITACS-Checker-V3.1X.zip",
+        "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
+        "bytes": 340464,
+        "version": "3.1.1",
+        "product_id": "fda-itacs-checker-x"
+      },
+      {
+        "name": "FDA-Mail-Sender-V3X.zip",
+        "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
+        "bytes": 58763,
+        "version": "3.0.3",
+        "product_id": "fda-mail-sender-x"
+      },
+      {
+        "name": "MAGAYA-Batch-Off-X.zip",
+        "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
+        "bytes": 30309,
+        "version": "1.0.1",
+        "product_id": "magaya-batch-off-x"
+      }
+    ]
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
-    "first_use": "desktop clients retain seven-day local trial; pure Chrome plugins are pending until owner approval",
+    "first_use": "Desktop clients retain seven-day local trial. Chrome has no client-local/offline trial; manual approval remains, with an optional seven-day first-contact customer grant only while Owner 2.11.5 is online and its global switch is enabled.",
     "revocation": "received on reconnect",
     "existing_backend_trial_ledger_authoritative": true,
     "existing_clients_preserved": true,
@@ -334,46 +370,79 @@
       "product_id": "fda-itacs-checker-x",
       "extension_id": "abaaodmcfgdbjnapdnbclcboilcajpco",
       "asset": "FDA-ITACS-Checker-V3.1X.zip",
-      "approval": "manual only",
-      "automatic_or_offline_trial": false,
+      "approval": "Manual approval retained; optional owner-controlled first-contact customer grant",
       "minimum_chrome_version": 137,
       "incognito": "not_allowed",
       "helper_required": false,
       "registration_or_login_required": false,
       "signed_catalog_subject": "CN=Tingrui Zhang - TEMU Invoice PDF Converter, O=TR-Z",
-      "cached_formal_deadline": "original approved expiry"
+      "cached_formal_deadline": "original approved expiry",
+      "version": "3.1.1",
+      "client_local_or_offline_trial": false,
+      "server_first_contact_customer_grant": {
+        "owner_min_version": "2.11.5",
+        "requires_online_main_backend": true,
+        "requires_global_switch": true,
+        "eligible": "genuinely first new extension credential",
+        "license_type": "customer",
+        "until_days": 7,
+        "switch_off": "new credentials wait for manual approval",
+        "existing_records_retroactively_reset": false
+      }
     },
     {
       "product_id": "fda-mail-sender-x",
       "extension_id": "lmoocmcgboneigdlbjpoijpdagmnpilg",
       "asset": "FDA-Mail-Sender-V3X.zip",
-      "approval": "manual only",
-      "automatic_or_offline_trial": false,
+      "approval": "Manual approval retained; optional owner-controlled first-contact customer grant",
       "minimum_chrome_version": 137,
       "incognito": "not_allowed",
       "helper_required": false,
       "registration_or_login_required": false,
       "signed_catalog_subject": "CN=Tingrui Zhang - TEMU Invoice PDF Converter, O=TR-Z",
-      "cached_formal_deadline": "original approved expiry"
+      "cached_formal_deadline": "original approved expiry",
+      "version": "3.0.3",
+      "client_local_or_offline_trial": false,
+      "server_first_contact_customer_grant": {
+        "owner_min_version": "2.11.5",
+        "requires_online_main_backend": true,
+        "requires_global_switch": true,
+        "eligible": "genuinely first new extension credential",
+        "license_type": "customer",
+        "until_days": 7,
+        "switch_off": "new credentials wait for manual approval",
+        "existing_records_retroactively_reset": false
+      }
     },
     {
       "product_id": "magaya-batch-off-x",
       "extension_id": "opiemnbjkimalpdfkcfechogepalmafi",
       "asset": "MAGAYA-Batch-Off-X.zip",
-      "approval": "manual only",
-      "automatic_or_offline_trial": false,
+      "approval": "Manual approval retained; optional owner-controlled first-contact customer grant",
       "minimum_chrome_version": 137,
       "incognito": "not_allowed",
       "helper_required": false,
       "registration_or_login_required": false,
       "signed_catalog_subject": "CN=Tingrui Zhang - TEMU Invoice PDF Converter, O=TR-Z",
-      "cached_formal_deadline": "original approved expiry"
+      "cached_formal_deadline": "original approved expiry",
+      "version": "1.0.1",
+      "client_local_or_offline_trial": false,
+      "server_first_contact_customer_grant": {
+        "owner_min_version": "2.11.5",
+        "requires_online_main_backend": true,
+        "requires_global_switch": true,
+        "eligible": "genuinely first new extension credential",
+        "license_type": "customer",
+        "until_days": 7,
+        "switch_off": "new credentials wait for manual approval",
+        "existing_records_retroactively_reset": false
+      }
     }
   ],
   "cbp3499_v1_x": {
     "product_id": "cbp3499-x",
     "name": "CBP3499 V1 X",
-    "app_version": "1.0.4X",
+    "app_version": "1.0.5X",
     "asset": "OTA.cbp3499-x.windows-x64.stable.zip",
     "authorization_backend": "existing Eternal Terminal X",
     "approval": "independent per-product owner approval",
@@ -383,7 +452,7 @@
     "first_local_trial_days": 7,
     "formal_offline_deadline": "original approved expiry",
     "customer_data_included": false,
-    "build": 2026102802
+    "build": 2026102803
   },
   "cbp3499_v1_x_verification": {
     "status": "verified",
@@ -435,64 +504,52 @@
   },
   "release_distribution": {
     "mode": "GitHub release and manual bootstrap only",
-    "tag": "x-acelynk-layout-2026102801",
+    "tag": "x-client-notify-2026102803",
     "assets": [
       {
-        "name": "ACELYNK_Portable.V3.8.7X.zip",
-        "bytes": 47896544,
-        "sha256": "17243AC2201036F6A196C1CFBAD5C22045E0831F928062A368FE736F8BE0B5BC",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/ACELYNK_Portable.V3.8.7X.zip",
-        "delivery": "MAGAYA layout compatibility repair",
-        "baseline_asset_id": 686145243
-      },
-      {
-        "name": "FDA-ITACS-Checker-V3.1X.zip",
-        "bytes": 338293,
-        "sha256": "E353A78452F906EECE0575272C5747C8AE463D2CC125FA296891BC634ACB27FA",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/FDA-ITACS-Checker-V3.1X.zip",
-        "delivery": "preserved original bytes",
-        "baseline_asset_id": 686145451
-      },
-      {
-        "name": "FDA-Mail-Sender-V3X.zip",
-        "bytes": 57719,
-        "sha256": "11612B8857AAEEF0AC93C621114C2677D4990F0A895334862872F22890B26A22",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/FDA-Mail-Sender-V3X.zip",
-        "delivery": "preserved original bytes",
-        "baseline_asset_id": 686145569
-      },
-      {
-        "name": "MAGAYA-Batch-Off-X.zip",
-        "bytes": 29490,
-        "sha256": "7BF25ED6DFA37A8C4A192091EC8F146A6B066A3ECEDBD2B219BA2FF6AC6D40EE",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/MAGAYA-Batch-Off-X.zip",
-        "delivery": "preserved original bytes",
-        "baseline_asset_id": 686145676
-      },
-      {
-        "name": "OTA.cbp3499-x.windows-x64.stable.zip",
-        "bytes": 124703643,
-        "sha256": "B4563160C07F48A0E3B546567D8D758C263716943004AF716D6D7ED3E938DC98",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/OTA.cbp3499-x.windows-x64.stable.zip",
-        "delivery": "preserved original bytes",
-        "baseline_asset_id": 686145962
+        "name": "ACELYNK_Portable.V3.8.8X.zip",
+        "bytes": 47911498,
+        "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/ACELYNK_Portable.V3.8.8X.zip",
+        "delivery": "Client arrival notification update; original identity and authorization retained"
       },
       {
         "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "bytes": 17257051,
-        "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "delivery": "preserved original bytes",
-        "baseline_asset_id": 686145829
+        "bytes": 17272940,
+        "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "delivery": "Client arrival notification update; original identity and authorization retained"
+      },
+      {
+        "name": "OTA.cbp3499-x.windows-x64.stable.zip",
+        "bytes": 124718255,
+        "sha256": "AD23A15966F6B50909871065E8AC82F9D49795E1F03147E7F700997B5CF2637A",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/OTA.cbp3499-x.windows-x64.stable.zip",
+        "delivery": "Client arrival notification update; original identity and authorization retained"
+      },
+      {
+        "name": "FDA-ITACS-Checker-V3.1X.zip",
+        "bytes": 340464,
+        "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/FDA-ITACS-Checker-V3.1X.zip",
+        "delivery": "Client arrival notification update; original identity and authorization retained"
+      },
+      {
+        "name": "FDA-Mail-Sender-V3X.zip",
+        "bytes": 58763,
+        "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/FDA-Mail-Sender-V3X.zip",
+        "delivery": "Client arrival notification update; original identity and authorization retained"
+      },
+      {
+        "name": "MAGAYA-Batch-Off-X.zip",
+        "bytes": 30309,
+        "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-notify-2026102803/MAGAYA-Batch-Off-X.zip",
+        "delivery": "Client arrival notification update; original identity and authorization retained"
       }
     ],
-    "unchanged_assets": [
-      "FDA-ITACS-Checker-V3.1X.zip",
-      "FDA-Mail-Sender-V3X.zip",
-      "MAGAYA-Batch-Off-X.zip",
-      "OTA.cbp3499-x.windows-x64.stable.zip",
-      "OTA.temu-invoice-4.6-x.windows-x64.stable.zip"
-    ],
+    "unchanged_assets": [],
     "backend_ota_manifests_modified": false,
     "automatic_client_update_activated": false,
     "prior_verification_fields": "Historical results retain their original scope; this release binds the current ACELYNK repair acceptance and preserves all five other current package bytes.",
@@ -604,6 +661,136 @@
     "artifact_binding": {
       "exe_sha256": "13D59BCCF2D7662E0650CA79BDD365E606419B703E3A4D4371B8CAE2ECF064F4",
       "zip_sha256": "17243AC2201036F6A196C1CFBAD5C22045E0831F928062A368FE736F8BE0B5BC"
+    }
+  },
+  "prior_release_verification": {
+    "x-acelynk-layout-2026102801": {
+      "verification": {
+        "final_artifacts_validated": true,
+        "credential_and_runtime_residue_audit_passed": true,
+        "trz_authenticode_present": true,
+        "normal_gui_startup_and_authorization": true,
+        "physical_second_computer_tested": false,
+        "offline_first_trial_and_reopen": true,
+        "formal_offline_until_original_expiry": true,
+        "normal_gui_with_backend_stopped": true,
+        "known_rejection_persisted": true,
+        "secret_audit_passed": true,
+        "offline_client_checks": 70,
+        "extracted_frozen_probe_checks_per_client": 21,
+        "final_normal_gui_startups": true,
+        "transient_server_error_and_rate_limit_preserve_original_offline_expiry": true,
+        "transient_http_statuses_tested": [
+          429,
+          500
+        ],
+        "pure_plugins_actual_chromium_idb_checks": 30,
+        "pure_plugins_cross_language_checks": 10,
+        "pure_plugins_manual_approval_and_no_trial": true,
+        "pure_plugins_signed_catalog_verified": true,
+        "batch_off_x_final_artifact_validated": true,
+        "batch_off_x_manual_no_trial": true,
+        "batch_off_x_credential_and_profile_audit_passed": true,
+        "acelynk_resume_login_final_artifact_validated": true,
+        "acelynk_resume_login_no_completed_entry_replay": true,
+        "acelynk_authorization_identity_and_sdk_unchanged": true,
+        "acelynk_pause_waiting_logs_quiet": true,
+        "acelynk_resume_reports_total_pause_duration": true,
+        "fda_mail_click_only_final_artifact_validated": true,
+        "fda_mail_click_only_authorization_identity_and_sdk_unchanged": true
+      },
+      "release_distribution": {
+        "mode": "GitHub release and manual bootstrap only",
+        "tag": "x-acelynk-layout-2026102801",
+        "assets": [
+          {
+            "name": "ACELYNK_Portable.V3.8.7X.zip",
+            "bytes": 47896544,
+            "sha256": "17243AC2201036F6A196C1CFBAD5C22045E0831F928062A368FE736F8BE0B5BC",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/ACELYNK_Portable.V3.8.7X.zip",
+            "delivery": "MAGAYA layout compatibility repair",
+            "baseline_asset_id": 686145243
+          },
+          {
+            "name": "FDA-ITACS-Checker-V3.1X.zip",
+            "bytes": 338293,
+            "sha256": "E353A78452F906EECE0575272C5747C8AE463D2CC125FA296891BC634ACB27FA",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/FDA-ITACS-Checker-V3.1X.zip",
+            "delivery": "preserved original bytes",
+            "baseline_asset_id": 686145451
+          },
+          {
+            "name": "FDA-Mail-Sender-V3X.zip",
+            "bytes": 57719,
+            "sha256": "11612B8857AAEEF0AC93C621114C2677D4990F0A895334862872F22890B26A22",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/FDA-Mail-Sender-V3X.zip",
+            "delivery": "preserved original bytes",
+            "baseline_asset_id": 686145569
+          },
+          {
+            "name": "MAGAYA-Batch-Off-X.zip",
+            "bytes": 29490,
+            "sha256": "7BF25ED6DFA37A8C4A192091EC8F146A6B066A3ECEDBD2B219BA2FF6AC6D40EE",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/MAGAYA-Batch-Off-X.zip",
+            "delivery": "preserved original bytes",
+            "baseline_asset_id": 686145676
+          },
+          {
+            "name": "OTA.cbp3499-x.windows-x64.stable.zip",
+            "bytes": 124703643,
+            "sha256": "B4563160C07F48A0E3B546567D8D758C263716943004AF716D6D7ED3E938DC98",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/OTA.cbp3499-x.windows-x64.stable.zip",
+            "delivery": "preserved original bytes",
+            "baseline_asset_id": 686145962
+          },
+          {
+            "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+            "bytes": 17257051,
+            "sha256": "B122AC628A27AA2845E62222CDABF3A2750941E4CEC115CE1FB6032F03DEA478",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-acelynk-layout-2026102801/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+            "delivery": "preserved original bytes",
+            "baseline_asset_id": 686145829
+          }
+        ],
+        "unchanged_assets": [
+          "FDA-ITACS-Checker-V3.1X.zip",
+          "FDA-Mail-Sender-V3X.zip",
+          "MAGAYA-Batch-Off-X.zip",
+          "OTA.cbp3499-x.windows-x64.stable.zip",
+          "OTA.temu-invoice-4.6-x.windows-x64.stable.zip"
+        ],
+        "backend_ota_manifests_modified": false,
+        "automatic_client_update_activated": false,
+        "prior_verification_fields": "Historical results retain their original scope; this release binds the current ACELYNK repair acceptance and preserves all five other current package bytes.",
+        "replaced_cbp_asset": {
+          "asset_id": 670577881,
+          "name": "CBP3499-V1-X.zip",
+          "size": 124645325,
+          "sha256": "62b029be348d23a108172b0fdb77ed37818e5181408a8378d04f6b191873d066"
+        }
+      }
+    }
+  },
+  "client_arrival_notification_update": {
+    "release": "x-client-notify-2026102803",
+    "desktop_build": 2026102803,
+    "owner_notification_configuration_required": true,
+    "authorization_unchanged": true,
+    "old_clients_require_client_update_to_report": true,
+    "public_sdk_binding_sha256": "D82CCBCF5B23FE49AD050D583FD992F34FEABF9810F15AE37915E026087B9C10",
+    "current_verification": "verification",
+    "historical_fields_scope": "Other named legacy acceptance sections retain their original package/version scope; they are not fresh acceptance evidence.",
+    "chrome_client_local_or_offline_trial": false,
+    "chrome_manual_approval_retained": true,
+    "chrome_server_first_contact_customer_grant": {
+      "owner_min_version": "2.11.5",
+      "requires_online_main_backend": true,
+      "requires_global_switch": true,
+      "eligible": "genuinely first new extension credential",
+      "license_type": "customer",
+      "until_days": 7,
+      "switch_off": "new credentials wait for manual approval",
+      "existing_records_retroactively_reset": false
     }
   }
 }
