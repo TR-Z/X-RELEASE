@@ -3,7 +3,7 @@
   "author": "Tingrui Zhang",
   "copyright": "Copyright (c) 2026 Tingrui Zhang",
   "release": "x-server-auto7-2026102902",
-  "status": "DRAFT ONLY: server-controlled first-online desktop clients; phone primary capability not yet verified; not a production or OTA publication",
+  "status": "server-auto7 compatible release metadata reviewed; Root review complete; actual publication is authoritative in GitHub Release API",
   "layout": "one executable per desktop ZIP; pure Chrome extension per plugin ZIP",
   "credentials_included": false,
   "artifacts": [
@@ -302,60 +302,83 @@
     }
   ],
   "verification": {
-    "final_artifacts_validated": true,
-    "fresh_draft_downloads_verified": true,
+    "current_artifacts_validated": true,
     "original_signers_and_catalogs_verified": true,
-    "actual_compiled_notification_checks": 225,
-    "pure_plugins_isolated_browser_checks": 385,
-    "notification_thread_failure_checks": 131,
-    "physical_second_computer_tested": false,
-    "real_business_operations_performed": false,
-    "live_windows_notification_delivery_tested": false,
-    "scope": "Final signed desktop inert health plus actual PYZ SDK with host Python crypto and synthetic transport; isolated Chrome browser/catalog checks. Fresh draft downloads bind all six packages. No production OTA publication.",
+    "source_regression": {
+      "methods": 25,
+      "subcases": 82
+    },
+    "frozen_verification": {
+      "acelynk": {
+        "launcher_checks": 46,
+        "authorization_checks": 46,
+        "health": true,
+        "source_and_actual_PYZ_bound": true
+      },
+      "temu": {
+        "authorization_checks": 46,
+        "health": true,
+        "source_and_actual_PYZ_bound": true
+      },
+      "cbp3499": {
+        "health": true,
+        "actual_PYZ_bound": true,
+        "private_boundary_violations": 0,
+        "private_boundary_gaps": 0,
+        "authorized_dropdown_categories": 7
+      }
+    },
+    "sdk_source_sha256": "C6AC397DE44E4F3FDC83B33E4A672E5529A20618F1F8BBB24655FB5A8B05E88B",
+    "draft_remote_downloads_verified": true,
+    "formal_remote_download_status": "Verify after formal publication; actual publication receipt is authoritative",
     "artifact_bindings": [
       {
-        "name": "ACELYNK_Portable.V3.8.8X.zip",
-        "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
-        "bytes": 47911498,
-        "version": "3.8.8X",
+        "name": "ACELYNK_Portable.V3.8.9X.zip",
+        "bytes": 47917501,
+        "sha256": "79381D1ABAA2F8EC5712150DA1ED10EA52246B9CD8F8EC196A19267E0AEBC3D4",
+        "version": "3.8.9X",
         "product_id": "acelynk-portable-x"
       },
       {
         "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
-        "bytes": 17272940,
-        "version": "4.6.2X",
+        "bytes": 17280636,
+        "sha256": "FED81060EE13E4130F3A3537EC114C68114EE40A38F2C36092E6E5B797837A88",
+        "version": "4.6.3X",
         "product_id": "temu-invoice-4.6-x"
       },
       {
         "name": "OTA.cbp3499-x.windows-x64.stable.zip",
-        "sha256": "AD23A15966F6B50909871065E8AC82F9D49795E1F03147E7F700997B5CF2637A",
-        "bytes": 124718255,
-        "version": "1.0.5X",
+        "bytes": 125077134,
+        "sha256": "AD5E0DF639DE608CD047C64FA624E01DF57B2DCE196AB5B7BD2211D1B1F8DABF",
+        "version": "1.0.7X",
         "product_id": "cbp3499-x"
       },
       {
         "name": "FDA-ITACS-Checker-V3.1X.zip",
-        "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
         "bytes": 340464,
+        "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
         "version": "3.1.1",
         "product_id": "fda-itacs-checker-x"
       },
       {
         "name": "FDA-Mail-Sender-V3X.zip",
-        "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
         "bytes": 58763,
+        "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
         "version": "3.0.3",
         "product_id": "fda-mail-sender-x"
       },
       {
         "name": "MAGAYA-Batch-Off-X.zip",
-        "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
         "bytes": 30309,
+        "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
         "version": "1.0.1",
         "product_id": "magaya-batch-off-x"
       }
-    ]
+    ],
+    "physical_second_computer_tested": false,
+    "real_business_operations_performed": false,
+    "production_OTA_manifest_published": false,
+    "scope": "Current signed artifact and isolated source/runtime/package acceptance; fresh formal downloads required after publication."
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
@@ -366,7 +389,7 @@
     "existing_approval_identity_preserved": true,
     "legacy_unsigned": "Report the original local start online; only the original remaining deadline may be signed after backend policy validation. Never restart seven days or revive expired/disabled/rejected records.",
     "signed_permits": "Existing owner-signed trial, customer and permanent permits retain their original identity and exact term; fixed-deadline permits remain usable offline only until that original deadline.",
-    "capability_requirement": "GET /v2/device/capabilities: trz-capabilities-v1 including server-auto7-v1; old strict health response remains unchanged. Current phone primary support is still pending."
+    "capability_requirement": "Exact GET /v2/device/capabilities trz-capabilities-v1 DTO with server-auto7-v1; old strict health unchanged. Phone046 final signed installation/current primary separately reported; Root receipt binds independent review."
   },
   "chrome_extensions": [
     {
@@ -507,62 +530,68 @@
     "live_business_actions": 0
   },
   "release_distribution": {
-    "mode": "GitHub release and manual bootstrap only",
-    "tag": "x-cbp3499-update-2026102901",
+    "mode": "GitHub Release and controlled manual bootstrap only",
+    "tag": "x-server-auto7-2026102902",
+    "release_id": 428457022,
     "assets": [
       {
-        "name": "ACELYNK_Portable.V3.8.8X.zip",
-        "bytes": 47911498,
-        "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/ACELYNK_Portable.V3.8.8X.zip",
-        "delivery": "Preserved original package bytes"
+        "name": "ACELYNK_Portable.V3.8.9X.zip",
+        "asset_id": 690102415,
+        "bytes": 47917501,
+        "sha256": "79381D1ABAA2F8EC5712150DA1ED10EA52246B9CD8F8EC196A19267E0AEBC3D4",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-server-auto7-2026102902/ACELYNK_Portable.V3.8.9X.zip",
+        "delivery": "server-controlled first-online desktop update"
       },
       {
         "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "bytes": 17272940,
-        "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
-        "delivery": "Preserved original package bytes"
+        "asset_id": 690102956,
+        "bytes": 17280636,
+        "sha256": "FED81060EE13E4130F3A3537EC114C68114EE40A38F2C36092E6E5B797837A88",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-server-auto7-2026102902/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+        "delivery": "server-controlled first-online desktop update"
       },
       {
         "name": "OTA.cbp3499-x.windows-x64.stable.zip",
-        "bytes": 125080330,
-        "sha256": "63BAAF9B08083F14411F35FBB8A97D35ADB1BB3326F1E089C8BBC072FE4A41B5",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/OTA.cbp3499-x.windows-x64.stable.zip",
-        "delivery": "CBP3499 client update"
+        "asset_id": 690102689,
+        "bytes": 125077134,
+        "sha256": "AD5E0DF639DE608CD047C64FA624E01DF57B2DCE196AB5B7BD2211D1B1F8DABF",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-server-auto7-2026102902/OTA.cbp3499-x.windows-x64.stable.zip",
+        "delivery": "server-controlled first-online desktop update"
       },
       {
         "name": "FDA-ITACS-Checker-V3.1X.zip",
+        "asset_id": 690102577,
         "bytes": 340464,
         "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/FDA-ITACS-Checker-V3.1X.zip",
-        "delivery": "Preserved original package bytes"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-server-auto7-2026102902/FDA-ITACS-Checker-V3.1X.zip",
+        "delivery": "preserved original package bytes"
       },
       {
         "name": "FDA-Mail-Sender-V3X.zip",
+        "asset_id": 690102629,
         "bytes": 58763,
         "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/FDA-Mail-Sender-V3X.zip",
-        "delivery": "Preserved original package bytes"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-server-auto7-2026102902/FDA-Mail-Sender-V3X.zip",
+        "delivery": "preserved original package bytes"
       },
       {
         "name": "MAGAYA-Batch-Off-X.zip",
+        "asset_id": 690102654,
         "bytes": 30309,
         "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/MAGAYA-Batch-Off-X.zip",
-        "delivery": "Preserved original package bytes"
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-server-auto7-2026102902/MAGAYA-Batch-Off-X.zip",
+        "delivery": "preserved original package bytes"
       }
     ],
-    "unchanged_assets": [],
+    "unchanged_assets": [
+      "FDA-ITACS-Checker-V3.1X.zip",
+      "FDA-Mail-Sender-V3X.zip",
+      "MAGAYA-Batch-Off-X.zip"
+    ],
     "backend_ota_manifests_modified": false,
     "automatic_client_update_activated": false,
-    "prior_verification_fields": "Historical results retain their original scope; this release binds the current ACELYNK repair acceptance and preserves all five other current package bytes.",
-    "replaced_cbp_asset": {
-      "asset_id": 670577881,
-      "name": "CBP3499-V1-X.zip",
-      "size": 124645325,
-      "sha256": "62b029be348d23a108172b0fdb77ed37818e5181408a8378d04f6b191873d066"
-    }
+    "publication_state_authority": "GitHub Release API",
+    "prior_verification_fields": "Historical sections retain their original package/version scopes; current acceptance binds current artifact bytes."
   },
   "generic_ota_bootstrap": {
     "products": [
@@ -773,6 +802,123 @@
           "sha256": "62b029be348d23a108172b0fdb77ed37818e5181408a8378d04f6b191873d066"
         }
       }
+    },
+    "x-cbp3499-update-2026102901": {
+      "release_distribution": {
+        "mode": "GitHub release and manual bootstrap only",
+        "tag": "x-cbp3499-update-2026102901",
+        "assets": [
+          {
+            "name": "ACELYNK_Portable.V3.8.8X.zip",
+            "bytes": 47911498,
+            "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/ACELYNK_Portable.V3.8.8X.zip",
+            "delivery": "Preserved original package bytes"
+          },
+          {
+            "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+            "bytes": 17272940,
+            "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+            "delivery": "Preserved original package bytes"
+          },
+          {
+            "name": "OTA.cbp3499-x.windows-x64.stable.zip",
+            "bytes": 125080330,
+            "sha256": "63BAAF9B08083F14411F35FBB8A97D35ADB1BB3326F1E089C8BBC072FE4A41B5",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/OTA.cbp3499-x.windows-x64.stable.zip",
+            "delivery": "CBP3499 client update"
+          },
+          {
+            "name": "FDA-ITACS-Checker-V3.1X.zip",
+            "bytes": 340464,
+            "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/FDA-ITACS-Checker-V3.1X.zip",
+            "delivery": "Preserved original package bytes"
+          },
+          {
+            "name": "FDA-Mail-Sender-V3X.zip",
+            "bytes": 58763,
+            "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/FDA-Mail-Sender-V3X.zip",
+            "delivery": "Preserved original package bytes"
+          },
+          {
+            "name": "MAGAYA-Batch-Off-X.zip",
+            "bytes": 30309,
+            "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
+            "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-cbp3499-update-2026102901/MAGAYA-Batch-Off-X.zip",
+            "delivery": "Preserved original package bytes"
+          }
+        ],
+        "unchanged_assets": [],
+        "backend_ota_manifests_modified": false,
+        "automatic_client_update_activated": false,
+        "prior_verification_fields": "Historical results retain their original scope; this release binds the current ACELYNK repair acceptance and preserves all five other current package bytes.",
+        "replaced_cbp_asset": {
+          "asset_id": 670577881,
+          "name": "CBP3499-V1-X.zip",
+          "size": 124645325,
+          "sha256": "62b029be348d23a108172b0fdb77ed37818e5181408a8378d04f6b191873d066"
+        }
+      },
+      "verification": {
+        "final_artifacts_validated": true,
+        "fresh_draft_downloads_verified": true,
+        "original_signers_and_catalogs_verified": true,
+        "actual_compiled_notification_checks": 225,
+        "pure_plugins_isolated_browser_checks": 385,
+        "notification_thread_failure_checks": 131,
+        "physical_second_computer_tested": false,
+        "real_business_operations_performed": false,
+        "live_windows_notification_delivery_tested": false,
+        "scope": "Final signed desktop inert health plus actual PYZ SDK with host Python crypto and synthetic transport; isolated Chrome browser/catalog checks. Fresh draft downloads bind all six packages. No production OTA publication.",
+        "artifact_bindings": [
+          {
+            "name": "ACELYNK_Portable.V3.8.8X.zip",
+            "sha256": "3AD203F729B146E355032A36D4115B94A1E3611AA6911CBF1D0ADE274CF17AFB",
+            "bytes": 47911498,
+            "version": "3.8.8X",
+            "product_id": "acelynk-portable-x"
+          },
+          {
+            "name": "OTA.temu-invoice-4.6-x.windows-x64.stable.zip",
+            "sha256": "D9FB88953FD5FDAC4A3826CDBB88AC7682BA64A378E8D6888B78633A37E6DE79",
+            "bytes": 17272940,
+            "version": "4.6.2X",
+            "product_id": "temu-invoice-4.6-x"
+          },
+          {
+            "name": "OTA.cbp3499-x.windows-x64.stable.zip",
+            "sha256": "AD23A15966F6B50909871065E8AC82F9D49795E1F03147E7F700997B5CF2637A",
+            "bytes": 124718255,
+            "version": "1.0.5X",
+            "product_id": "cbp3499-x"
+          },
+          {
+            "name": "FDA-ITACS-Checker-V3.1X.zip",
+            "sha256": "E1FB71A1796A43655B5E388B6D939A47497294931F5990F10D3EF5EED7571571",
+            "bytes": 340464,
+            "version": "3.1.1",
+            "product_id": "fda-itacs-checker-x"
+          },
+          {
+            "name": "FDA-Mail-Sender-V3X.zip",
+            "sha256": "99B28B588451A95190BFB22EA61A8CE6DC4195451D25023BAB261352AE5E78C4",
+            "bytes": 58763,
+            "version": "3.0.3",
+            "product_id": "fda-mail-sender-x"
+          },
+          {
+            "name": "MAGAYA-Batch-Off-X.zip",
+            "sha256": "CA8CBC71051EE747E4995CF709F7496B4A5936C8846D34942D8D8DAABFE7A262",
+            "bytes": 30309,
+            "version": "1.0.1",
+            "product_id": "magaya-batch-off-x"
+          }
+        ]
+      },
+      "historical_scope": "Exact prior-current metadata with original package scopes; not acceptance for this server-auto7 client update."
     }
   },
   "client_arrival_notification_update": {
@@ -877,19 +1023,26 @@
     "public_ota_receipt_download": "unavailable/not verified in this publication"
   },
   "distribution_state": {
-    "draft": true,
-    "published": false,
+    "metadata_readiness": "Reviewed C final report; independent trusted-origin GET probe passed",
+    "publication_state_authority": "GitHub Release API",
+    "release_id": 428457022,
+    "tag": "x-server-auto7-2026102902",
     "production_OTA_manifest_published": false,
-    "phone_primary_capability_verified": false,
+    "phone_primary_capability_verified": true,
     "previous_latest_release_id": 428360042,
     "previous_latest_tag": "x-cbp3499-update-2026102901",
-    "target_branch": "codex/server-auto7-clients-20261029"
+    "target_branch": "codex/server-auto7-clients-20261029",
+    "root_review": {
+      "status": "Reviewed C final report; independent trusted-origin GET probe passed",
+      "readiness_receipt_sha256": "37643FE7F5A557FC6EFAED790BC9C30C7D4EDC02DF7384B960A039507065C587",
+      "readonly_probe_receipt_sha256": "1E84CB7515BC4A7F2EF7847768EA7B25831A59033FA20E4E52715C8A4943514B",
+      "no_windows_owner_takeover": true,
+      "production_OTA_manifest_published": false
+    }
   },
-  "server_auto7_client_candidate": {
+  "server_auto7_client_update": {
     "format": 1,
     "scope": "Three reviewed desktop client updates only; all other current client packages preserved byte-for-byte",
-    "draft_only": true,
-    "production_ready": false,
     "versions": {
       "acelynk-portable-x": {
         "version": "3.8.9X",
@@ -959,7 +1112,47 @@
       "temu-invoice-4.6-x"
     ],
     "Chrome_extension_OTA_supported": false,
-    "scope_limits": "Synthetic isolated source/runtime/package tests and actual signed-package verification; no real business or live device approval. No production OTA manifest, phone owner installation or desktop replacement has occurred.",
-    "historical_sections": "Earlier manifest verification sections retain their original package/version scope and are not acceptance evidence for these candidates."
+    "scope_limits": "Synthetic isolated source/runtime/package tests and final signed-package verification; no real business or live device approval. Phone unified-trial acceptance separately reported and Root reviewed. No Windows takeover or production OTA manifest.",
+    "historical_sections": "Earlier verification retains its original package/version scope; not acceptance evidence for this update.",
+    "metadata_readiness": "Reviewed C final report; independent trusted-origin GET probe passed"
+  },
+  "unified_trial_compatibility": {
+    "evidence_source": "C final046 actual execution/sign/install report and declared artifact hashes accepted by Root; original signed current-origin capabilities/health independently verified by Windows. Swift/IPA/xcresult receipt bodies not independently reproduced; supplemental fixed bodies remain archive work.",
+    "version": "0.4.6",
+    "build": "15",
+    "final_combined_source_files": 147,
+    "final_combined_source_manifest_sha256": "11774228504461a70161c4efeba5215de7bdcbf9d652b3307c5372db9b1744bb",
+    "full_suite": {
+      "total": 613,
+      "passed": 612,
+      "skipped": 1,
+      "failed": 0,
+      "exit_code": 0,
+      "skip_scope": "one explicit opt-in public-network test",
+      "result_sha256": "ca0b591d14086bcf0bf30b63161ddfd12698b844b811f2a0746c3ede120f4b6f"
+    },
+    "final_actual_26_vectors_sha256": "c219904add35583e4347bd56981d61d72eef547454dae6f0d2e4a5b0dbb09aaf",
+    "signed_IPA_sha256": "23b51d453fea28d2509858abeb57a10752f3d0dafee63f8662075dc8007b4241",
+    "signature_clean_extract_receipt_sha256": "c47adf854280e08c6fd162654ade7f125bc16ce4c4ef0a4f5d4e7f1ea0e86436",
+    "physical_install_receipt_sha256": "c465fbf253cbeb05dbdbc0a7fc3355f974897f34435d764100941f49252f4614",
+    "C_readonly_probe_receipt_sha256": "fb9b76ebfd72475ec068b3d8a67dab22e2d46b99cd7c8a7ce3b785351d096cba",
+    "reported_installed": true,
+    "reported_current_primary_capability": "server-auto7-v1",
+    "scope_limits": [
+      "Final combined613 and final26 belong to final freeze, not a sum of earlier106 and95",
+      "Trusted discovery/capability/health observation is a single point, not continuous24h availability",
+      "No Windows enrollment, approval, customer license request, switch change or takeover",
+      "Phone IPA is not included in public client assets or desktop client directory",
+      "Other phone features and Pro Max acceptance are outside this review"
+    ],
+    "root_review": {
+      "status": "Reviewed C final report; independent trusted-origin GET probe passed",
+      "readiness_receipt_sha256": "37643FE7F5A557FC6EFAED790BC9C30C7D4EDC02DF7384B960A039507065C587",
+      "readonly_probe_receipt_sha256": "1E84CB7515BC4A7F2EF7847768EA7B25831A59033FA20E4E52715C8A4943514B",
+      "no_windows_owner_takeover": true,
+      "production_OTA_manifest_published": false,
+      "C_attachment_bodies_independently_reproduced": false,
+      "independent_signed_origin_GET_probe_passed": true
+    }
   }
 }
