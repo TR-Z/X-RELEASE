@@ -8,19 +8,19 @@
   "credentials_included": false,
   "artifacts": [
     {
-      "name": "ACELYNK_Portable.V3.8.9X.zip",
-      "bytes": 47917501,
-      "sha256": "79381D1ABAA2F8EC5712150DA1ED10EA52246B9CD8F8EC196A19267E0AEBC3D4",
+      "name": "ACELYNK_Portable.V3.9.0X.zip",
+      "bytes": 47920590,
+      "sha256": "F29D55578BCAFE78ACF182E9E5B8D3AC5502D29978A8E76A2508B2828A91F87C",
       "files": [
         {
           "name": "ACELYNK Tool X.exe",
-          "bytes": 48126680,
-          "sha256": "A6D8ECF68E10FE6CE9348B5A4283B153CD23AFB89F9A112B12F4F3ACD10CD575"
+          "bytes": 48130776,
+          "sha256": "8744C0D196DEAE3F599FD485556273DD192EE4131DFFCFBB49E2B68BEF759B62"
         }
       ],
       "product_id": "acelynk-portable-x",
-      "version": "3.8.9X",
-      "build": 2026102902,
+      "version": "3.9.0X",
+      "build": 2026103101,
       "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453"
     },
     {
@@ -378,7 +378,7 @@
     "physical_second_computer_tested": false,
     "real_business_operations_performed": false,
     "production_OTA_manifest_published": false,
-    "scope": "Current signed artifact and isolated source/runtime/package acceptance; fresh formal downloads required after publication."
+    "scope": "Current signed artifact and isolated source/runtime/package acceptance; fresh formal downloads required after publication. ACELYNK acceptance in this section remains scoped to the prior 3.8.9X artifact; current repair acceptance is retained privately."
   },
   "offline_authorization": {
     "formal": "device-bound owner-signed license until the originally approved deadline",
@@ -535,11 +535,11 @@
     "release_id": 428457022,
     "assets": [
       {
-        "name": "ACELYNK_Portable.V3.8.9X.zip",
-        "asset_id": 690102415,
-        "bytes": 47917501,
-        "sha256": "79381D1ABAA2F8EC5712150DA1ED10EA52246B9CD8F8EC196A19267E0AEBC3D4",
-        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-server-auto7-2026102902/ACELYNK_Portable.V3.8.9X.zip",
+        "name": "ACELYNK_Portable.V3.9.0X.zip",
+        "asset_id": 696528392,
+        "bytes": 47920590,
+        "sha256": "F29D55578BCAFE78ACF182E9E5B8D3AC5502D29978A8E76A2508B2828A91F87C",
+        "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-server-auto7-2026102902/ACELYNK_Portable.V3.9.0X.zip",
         "delivery": "server-controlled first-online desktop update"
       },
       {
@@ -1045,9 +1045,9 @@
     "scope": "Three reviewed desktop client updates only; all other current client packages preserved byte-for-byte",
     "versions": {
       "acelynk-portable-x": {
-        "version": "3.8.9X",
-        "build": 2026102902,
-        "zip_sha256": "79381D1ABAA2F8EC5712150DA1ED10EA52246B9CD8F8EC196A19267E0AEBC3D4",
+        "version": "3.9.0X",
+        "build": 2026103101,
+        "zip_sha256": "F29D55578BCAFE78ACF182E9E5B8D3AC5502D29978A8E76A2508B2828A91F87C",
         "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453"
       },
       "cbp3499-x": {
