@@ -7,7 +7,7 @@ Copyright (c) 2026 Tingrui Zhang
 
 | 程序 | 当前版本 |
 | --- | --- |
-| ACELYNK Portable X | 3.9.0X |
+| ACELYNK Portable X | [3.9.1X](https://github.com/TR-Z/X-RELEASE/releases/download/x-ota-device-v1-acelynk-portable-x-2026110101-21d0afe0be51/OTA-DEVICE.acelynk-portable-x.windows-x64.2026110101.21d0afe0be51.zip) |
 | TEMU Invoice X | 4.6.3X |
 | CBP3499 V1 X | 1.0.7X |
 | FDA ITACS Checker X | 3.1.1 |

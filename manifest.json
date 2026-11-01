@@ -1154,5 +1154,30 @@
       "C_attachment_bodies_independently_reproduced": false,
       "independent_signed_origin_GET_probe_passed": true
     }
+  },
+  "historical_metadata_scope": "Existing grouped-release, artifact-list and verification sections retain their original package scopes. Current per-product manual downloads are listed in current_manual_downloads; that list does not create device offers or change OTA compatibility bridges.",
+  "current_manual_downloads": {
+    "acelynk-portable-x": {
+      "version": "3.9.1X",
+      "build": 2026110101,
+      "platform": "windows-x64",
+      "release_id": 430775227,
+      "tag": "x-ota-device-v1-acelynk-portable-x-2026110101-21d0afe0be51",
+      "asset_id": 699164391,
+      "asset_name": "OTA-DEVICE.acelynk-portable-x.windows-x64.2026110101.21d0afe0be51.zip",
+      "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-ota-device-v1-acelynk-portable-x-2026110101-21d0afe0be51/OTA-DEVICE.acelynk-portable-x.windows-x64.2026110101.21d0afe0be51.zip",
+      "bytes": 48047979,
+      "sha256": "21D0AFE0BE51216014DF9893173F78FD1D437E2D12295A163ABEBF6739BF6791",
+      "files": [
+        {
+          "name": "ACELYNK Tool X.exe",
+          "bytes": 48256728,
+          "sha256": "2197A7B7B4CF7E0B75DDDD0D765C650370C62F8927DFD072259F66B87B4A3C75"
+        }
+      ],
+      "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453",
+      "delivery": "manual_download_only",
+      "creates_device_offers": false
+    }
   }
 }
