@@ -299,6 +299,14 @@
       "product_id": "magaya-batch-off-x",
       "version": "1.0.1",
       "signer_thumbprint": "516DE0AC4C0686C671578EDB7A98B3EB054176B9"
+    },
+    {
+      "name": "SHEIN-Hold-Mail-Sender-V1.0.0X.zip",
+      "bytes": 46745,
+      "sha256": "EAE0A088961E2FC781C10EBA85BA9ED8454BED86E57F4C937F4EB6FA33032503",
+      "product_id": "shein-hold-mail-sender-x",
+      "version": "1.0.0X",
+      "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
     }
   ],
   "verification": {
@@ -463,6 +471,22 @@
         "switch_off": "new credentials wait for manual approval",
         "existing_records_retroactively_reset": false
       }
+    },
+    {
+      "product_id": "shein-hold-mail-sender-x",
+      "extension_id": "ijphekagolilpcobkdicapdphehjiggk",
+      "asset": "SHEIN-Hold-Mail-Sender-V1.0.0X.zip",
+      "version": "1.0.0X",
+      "approval": "Manual approval retained; optional owner-controlled first-contact customer grant",
+      "minimum_chrome_version": 137,
+      "incognito": "not_allowed",
+      "helper_required": false,
+      "signed_catalog_subject": "CN=TR-Z",
+      "cached_formal_deadline": "original approved expiry",
+      "client_local_or_offline_trial": false,
+      "ota_supported": false,
+      "fixed_sheet": "https://docs.google.com/spreadsheets/d/1AOxrj63tLRCmA5bbiVSl4mU5aNbKpx6QUphwQyv6zds/edit#gid=0",
+      "editable_sheet_link": false
     }
   ],
   "cbp3499_v1_x": {
@@ -1178,6 +1202,29 @@
       "signer_thumbprint": "07D2250BACA71A0EABDA670B6A2BD5A63F204453",
       "delivery": "manual_download_only",
       "creates_device_offers": false
+    },
+    "shein-hold-mail-sender-x": {
+      "version": "1.0.0X",
+      "platform": "chrome-extension",
+      "release_id": 432383432,
+      "tag": "x-client-recovery-2026110201",
+      "asset_id": 711711561,
+      "asset_name": "SHEIN-Hold-Mail-Sender-V1.0.0X.zip",
+      "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-recovery-2026110201/SHEIN-Hold-Mail-Sender-V1.0.0X.zip",
+      "bytes": 46745,
+      "sha256": "EAE0A088961E2FC781C10EBA85BA9ED8454BED86E57F4C937F4EB6FA33032503",
+      "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400",
+      "delivery": "manual_download_only",
+      "creates_device_offers": false
     }
+  },
+  "shein_hold_mail_sender_x": {
+    "date": "2026-11-04",
+    "version": "1.0.0X",
+    "product_id": "shein-hold-mail-sender-x",
+    "ordinary_renderer_preserved": true,
+    "controls": "Fixed copied Google Sheet with no link-editing control; existing fixed mail recipients and CC retained with explicit owner approval; draft fill only, no automatic send",
+    "acceptance_scope": "Actual signed package in isolated Chrome; signed SDK crypto and authorization fixtures, fixed source, denied access, draft fields, FDA ENTRY, visible CC, signature, no-send and coexistence checks passed. Fresh public download and internal catalog/hash readback verified. No production device approval or real mail send.",
+    "ota_supported": false
   }
 }
