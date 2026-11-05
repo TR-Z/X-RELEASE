@@ -13,7 +13,7 @@ Copyright (c) 2026 Tingrui Zhang
 | FDA ITACS Checker X | 3.1.1 |
 | FDA Mail Sender X | 3.0.3 |
 | MAGAYA Batch Off X | 1.0.1 |
-| SHEIN Hold Mail Sender X | [1.0.0X](https://github.com/TR-Z/X-RELEASE/releases/download/x-client-recovery-2026110201/SHEIN-Hold-Mail-Sender-V1.0.0X.zip) |
+| SHEIN Hold Mail Sender X | [1.0.1X](https://github.com/TR-Z/X-RELEASE/releases/download/x-client-recovery-2026110201/SHEIN-Hold-Mail-Sender-V1.0.1X.zip) |
 
 Windows 程序：下载 ZIP、完整解压后运行 EXE。TEMU Invoice 需要 Microsoft Excel。
 
