@@ -307,6 +307,14 @@
       "product_id": "shein-hold-mail-sender-x",
       "version": "1.0.0X",
       "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
+    },
+    {
+      "name": "SHEIN-Hold-Mail-Sender-V1.0.1X.zip",
+      "bytes": 46451,
+      "sha256": "2425D2250125EBC0ACA01BCF4D07D42D6EC772072BAFB89B01EBBE8732D04B6E",
+      "product_id": "shein-hold-mail-sender-x",
+      "version": "1.0.1X",
+      "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400"
     }
   ],
   "verification": {
@@ -475,8 +483,8 @@
     {
       "product_id": "shein-hold-mail-sender-x",
       "extension_id": "ijphekagolilpcobkdicapdphehjiggk",
-      "asset": "SHEIN-Hold-Mail-Sender-V1.0.0X.zip",
-      "version": "1.0.0X",
+      "asset": "SHEIN-Hold-Mail-Sender-V1.0.1X.zip",
+      "version": "1.0.1X",
       "approval": "Manual approval retained; optional owner-controlled first-contact customer grant",
       "minimum_chrome_version": 137,
       "incognito": "not_allowed",
@@ -1204,15 +1212,15 @@
       "creates_device_offers": false
     },
     "shein-hold-mail-sender-x": {
-      "version": "1.0.0X",
+      "version": "1.0.1X",
       "platform": "chrome-extension",
       "release_id": 432383432,
       "tag": "x-client-recovery-2026110201",
-      "asset_id": 711711561,
-      "asset_name": "SHEIN-Hold-Mail-Sender-V1.0.0X.zip",
-      "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-recovery-2026110201/SHEIN-Hold-Mail-Sender-V1.0.0X.zip",
-      "bytes": 46745,
-      "sha256": "EAE0A088961E2FC781C10EBA85BA9ED8454BED86E57F4C937F4EB6FA33032503",
+      "asset_id": 714333612,
+      "asset_name": "SHEIN-Hold-Mail-Sender-V1.0.1X.zip",
+      "download_url": "https://github.com/TR-Z/X-RELEASE/releases/download/x-client-recovery-2026110201/SHEIN-Hold-Mail-Sender-V1.0.1X.zip",
+      "bytes": 46451,
+      "sha256": "2425D2250125EBC0ACA01BCF4D07D42D6EC772072BAFB89B01EBBE8732D04B6E",
       "signer_thumbprint": "6028F759564AB5A1C498C62F0F210714E76E7400",
       "delivery": "manual_download_only",
       "creates_device_offers": false
@@ -1226,5 +1234,12 @@
     "controls": "Fixed copied Google Sheet with no link-editing control; existing fixed mail recipients and CC retained with explicit owner approval; draft fill only, no automatic send",
     "acceptance_scope": "Actual signed package in isolated Chrome; signed SDK crypto and authorization fixtures, fixed source, denied access, draft fields, FDA ENTRY, visible CC, signature, no-send and coexistence checks passed. Fresh public download and internal catalog/hash readback verified. No production device approval or real mail send.",
     "ota_supported": false
+  },
+  "shein_hold_mail_sender_x_ui_patch": {
+    "date": "2026-11-05",
+    "product_id": "shein-hold-mail-sender-x",
+    "version": "1.0.1X",
+    "change": "Remove lower sheet-information foldout; retain Open Sheet, fixed Sheet reading and original X identity.",
+    "acceptance": "Signed ZIP passed isolated Chrome preview/fill and foldout checks; fresh GitHub download matched ZIP and all signed runtime files."
   }
 }
